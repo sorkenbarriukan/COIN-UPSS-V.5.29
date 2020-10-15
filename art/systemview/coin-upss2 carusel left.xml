@@ -28,14 +28,6 @@
 <path>./${system.theme}/wall.png</path>
 </image>
 
-<image name="loading" extra="true">
-<path>./art/loading.png</path>
-<color>FFFFFFFF</color>
-<pos>0.2815 0.569</pos>
-<size>0.3958 0.5620</size>
-<origin>0.5 0.5</origin>
-<zIndex>10</zIndex>
-</image>
  
 <helpsystem name="help">
 <visible>false</visible>

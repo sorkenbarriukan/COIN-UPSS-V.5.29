@@ -110,7 +110,6 @@
 <color>${baseColor}</color>
 </image>
 </view>
-</view>
 
 <!---------------------------detailed------------------------------------- -->
   <view name="detailed">
