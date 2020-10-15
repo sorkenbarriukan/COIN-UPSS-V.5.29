@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  
+	<view name="splash">
+
+		<splash name="splash">
+			<backgroundColor>ffffff50</backgroundColor>
+		</splash>
+
+		<image name="background">
+	    	<path>./art/loading.png</path>
+		</image>
+				
+		<image name="progressbar">
+			<origin>0 0</origin>
+			<pos>0.203 0.485</pos>
+			<size>-0.05 0.385</size>
+			<rotation>0</rotation>
+			<rotationOrigin>1.1 1.6</rotationOrigin>
+			<color>00000000</color>
+		</image>
+
+		<text name="label">
+			<fontPath>./artBebas Neue.ttf</fontPath>
+			<pos>0.174 0.930</pos>			
+			<color>000000</color>
+			<fontSize>0.030</fontSize>
+		</text>
+		
+		<image name="progressbar:active">
+			<color>c6355680</color>
+			<pos>0.454 0.931</pos>
+			<size>-0.05 -0.385</size>
+			<rotation>0</rotation>
+			<rotationOrigin>1.1 1.6</rotationOrigin>
+		</image>
+		
+	</view>	
+</theme>
