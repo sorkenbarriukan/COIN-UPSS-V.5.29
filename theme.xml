@@ -968,18 +968,21 @@ originally based on: "simple" by nils bonenberger
 </image>
 
 <imagegrid name="gamegrid">
+<type>vertical_wheel</type>
+ <logoScale>1.80</logoScale>
+<logoSize>0.18 0.11</logoSize>
 <pos>0.05 -0.01</pos>
 <size>0.25 0.999</size>
-<padding>0.07 -0.07 0.07 0.10</padding>
+<padding>vertical_wheel</padding>
 <scrollDirection>vertical</scrollDirection>
 <autoLayout>1 9</autoLayout>
 <imageSource>marquee</imageSource>
-<autoLayoutSelectedZoom>1.76</autoLayoutSelectedZoom>
+<autoLayoutSelectedZoom>1.66</autoLayoutSelectedZoom>
 <margin>0.002 -0.09</margin>
 <centerSelection>true</centerSelection>
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
-<scrollSound>./art/computerbeep_9.mp3</scrollSound>
+<scrollSound>./art/computerbeep_10.mp3</scrollSound>
 </imagegrid>
 
 <image name="gridtile.favorite">
@@ -1109,18 +1112,21 @@ originally based on: "simple" by nils bonenberger
 </image>
 
 <imagegrid name="gamegrid">
-<pos>0.04 -0.09</pos>
-<size>0.30 0.983</size>
-<padding>0.04 .50 0.07 0.30</padding>
+<type>vertical_wheel</type>
+ <logoScale>1.80</logoScale>
+<logoSize>0.18 0.11</logoSize>
+<pos>0.05 -0.01</pos>
+<size>0.25 0.999</size>
+<padding>vertical_wheel</padding>
 <scrollDirection>vertical</scrollDirection>
-<autoLayout>1 1</autoLayout>
+<autoLayout>1 9</autoLayout>
 <imageSource>marquee</imageSource>
-<autoLayoutSelectedZoom>1.56</autoLayoutSelectedZoom>
-<margin>0.005 0.02</margin>
+<autoLayoutSelectedZoom>1.66</autoLayoutSelectedZoom>
+<margin>0.002 -0.09</margin>
 <centerSelection>false</centerSelection>
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
-<scrollSound>./art/computerbeep_10.mp3</scrollSound>
+<scrollSound>./art/computerbeep_9.mp3</scrollSound>
 </imagegrid>
 
  <image name="gridtile.favorite">
