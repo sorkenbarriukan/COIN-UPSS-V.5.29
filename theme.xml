@@ -3867,15 +3867,6 @@ originally based on: "simple" by nils bonenberger
 <origin>0.5 0.5</origin>
 <zIndex>10</zIndex>
 </image>
-<image name="backgroundcabin" extra="true">
-<tile>false</tile>
-<pos>0.2295 0.534</pos>
-<size>0.3158 0.6120</size>
-<origin>0.5 0.5</origin>
-<path>./art/loading.png</path>
-<color>ffffff</color>
-<zIndex>10</zIndex>
-</image>
 
 <image name="backgroundcabin2" extra="true">
 <tile>false</tile>
