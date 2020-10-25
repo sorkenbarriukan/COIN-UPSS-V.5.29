@@ -62,8 +62,8 @@
 <size>0.2595 0.7455</size>
 <storyboard>  
 <animation property="scale" from="0" to="1" duration="800" mode="easeOutCubic"/>      
-       <animation property="rotation" from="3" to="0" duration="1200" mode="linear" repeat="forever"/>       
-</storyboard>  
+       <animation property="rotation" from="0" to="6" duration="700" repeat="forever"/>       
+</storyboard>   
 <zIndex>90</zIndex>
 </image>
 

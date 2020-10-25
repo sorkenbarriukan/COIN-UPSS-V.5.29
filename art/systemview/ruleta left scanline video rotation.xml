@@ -52,6 +52,19 @@
 <zIndex>20</zIndex>
 </video>
 
+<image name="consola" extra="true">
+<path>./art/sistemas/consoles/default.png</path>
+<path>./art/sistemas/consoles/${system.theme}.png</path>
+<color>FFFFFFFF</color>
+<origin>0 0</origin>
+<pos>0.8250 0.7067</pos>
+<size>0.1000 0.1000</size>
+<storyboard>  
+       <animation property="rotation" from="0" to="13" duration="300" autoreverse="true" repeat="0"/>  
+</storyboard>  
+<zIndex>90</zIndex>
+</image>
+
 <image name="personaje" extra="true">
 <path>./art/sistemas/character/default.png</path>
 <path>./art/sistemas/character/${system.theme}.png</path>
@@ -61,7 +74,8 @@
 <pos>0.2250 0.2567</pos>
 <size>0.2595 0.7455</size>
 <storyboard>       
-<animation property="scale" from="0" to="1" duration="800" mode="easeOutCubic"/>       
+<animation property="scale" from="0" to="1" duration="800" mode="easeOutCubic"/>  
+<animation property="rotation" from="0" to="-6" duration="300" autoreverse="true" repeat="0"/>     
 </storyboard>
 <zIndex>60</zIndex>
 </image>
