@@ -21,6 +21,19 @@
 <zIndex>10</zIndex>
 </image>
    
+<image name="consola" extra="true">
+<path>./art/sistemas/consoles/default.png</path>
+<path>./art/sistemas/consoles/${system.theme}.png</path>
+<color>FFFFFFFF</color>
+<origin>0 0</origin>
+<pos>0.8250 0.7067</pos>
+<size>0.1000 0.1000</size>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="4000" repeat="3"/>
+</storyboard>  
+<zIndex>90</zIndex>
+</image>
+
 <image name="predeterminado" extra="true">
 <tile>false</tile>
 <Delay>800</Delay>
