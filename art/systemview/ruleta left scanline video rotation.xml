@@ -74,9 +74,10 @@
 <pos>0.2250 0.2567</pos>
 <size>0.2595 0.7455</size>
 <storyboard repeat="forever">
-<animation property="scale" from="0" to="1" duration="800" mode="easeOutCubic"/> 
-       <animation property="rotation" from="-5" to="5" duration="400" autoreverse="true" begin="4000" repeat="2"/>  
-      </storyboard>  
+<animation property="scale" from="0" to="1" duration="3800" mode="ease-in-out"/> 
+<animation property="rotation" from="-5" to="5" duration="800" autoreverse="true" begin="4000" repeat="2"/>  
+<animation property="x" from="1.01" begin="0" duration="5250" mode="easeOut"/>
+</storyboard>  
 <zIndex>60</zIndex>
 </image>
 
