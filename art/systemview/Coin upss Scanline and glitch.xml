@@ -57,6 +57,9 @@
 <showSnapshotDelay>false</showSnapshotDelay>
 <color>FFFFFF</color>   
 <zIndex>15</zIndex>
+<storyboard> 
+<animation property="y" from="1.01" begin="0" duration="700" mode="easeOut"/>
+</storyboard>
 </video>
     
 <video name="glitch" extra="true">

@@ -48,6 +48,9 @@
 <showSnapshotDelay>false</showSnapshotDelay>
 <color>FFFFFF</color>   
 <zIndex>15</zIndex>
+<storyboard>  
+        <animation property="y" from="0" begin="0" duration="800" mode="easeOut"/>  
+</storyboard>
 </video>
 
 <video name="backgroundvideo3" extra="true">

@@ -76,8 +76,8 @@ originally based on: "simple" by nils bonenberger
 <include name="(5)-Carousel Coin upss No Scanline">./art/systemview/Coin upss No Scanline.xml</include>
 <include name="(6)-Carousel Coin upss Scanline and glitch">./art/systemview/Coin upss Scanline and glitch.xml</include>
 <include name="(1)-Carousel CoinOPS NEXT big scanline">./art/systemview/Coin upss next big scnl.xml</include>
-<include name="(2)-Carousel CoinOPS NEXT list cabin yellow bg darck.png">./art/systemview/Coin upss next glas scratch.xml</include>
-<include name="(3)-Carousel CoinOPS NEXT yellow Cabinet">./art/systemview/Coin upss next yellow Cabinet.xml</include>
+<include name="(2)-Carousel CoinOPS NEXT Darck Cabin">./art/systemview/Coin upss next glas scratch.xml</include>
+<include name="(3)-Carousel CoinOPS NEXT Yellow Cabinet">./art/systemview/Coin upss next yellow Cabinet.xml</include>
 <include name="(1)-Frame 1">./art/systemview/FF1.xml</include>
 <include name="(2)-Frame 2">./art/systemview/FF2.xml</include>
 <include name="Gamer">./art/systemview/gamer.xml</include>
