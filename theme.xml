@@ -82,10 +82,11 @@ originally based on: "simple" by nils bonenberger
 <include name="(2)-Frame 2">./art/systemview/FF2.xml</include>
 <include name="Gamer">./art/systemview/gamer.xml</include>
 <include name="Intros systems">./art/systemview/intros systems.xml</include>
+<include name="Hard Mix">./art/systemview/retrotv.xml</include>
 <include name="(1)-Horizontal full video marquee">./art/systemview/horizontal full video random.xml</include>
 <include name="(2)-Horizontal full video intro batocera Snakervill">./art/systemview/Horizontal full video intro batocera snkv.xml</include>
 <include name="(3)-Horizontal Wallpaper System">./art/systemview/Horizontal Wallpaper System.xml</include>
-<include name="(4)-Horizontal Wallpaper logo batocera">./art/systemview/Horizontal Wallpaper logo batocera.xml</include>
+<include name="(4)-Horizontal Wallpaper Logo Coin Upss">./art/systemview/Horizontal Wallpaper logo batocera.xml</include>
 <include name="(5)-Horizontal Wallpaper System&MinivideoRandom">./art/systemview/Horizontal Wallpaper System&MinivideoRandom.xml</include>
 <include name="(6)-Horizontal Wallpaper System&MinivideoRandomScanline">./art/systemview/Horizontal Wallpaper System&MinivideoRandomScanline.xml</include>
 <include name="(7)-Horizontal Wallpaper System animation">./art/systemview/Horizontal Wallpaper System animation.xml</include>
@@ -544,6 +545,8 @@ originally based on: "simple" by nils bonenberger
 <autoLayoutSelectedZoom>1.12</autoLayoutSelectedZoom>
 <animateSelection>false</animateSelection>
 <scrollSound>./art/sonidos/computerbeep_11.mp3</scrollSound>
+<folderImage>./art/fondos/deffolder.png</folderImage>
+<gameImage>./art/fondos/defgame.png</gameImage>
 </imagegrid>
 
 <gridtile name="default">
@@ -652,6 +655,8 @@ originally based on: "simple" by nils bonenberger
 <autoLayoutSelectedZoom>1.12</autoLayoutSelectedZoom>
 <animateSelection>false</animateSelection>
 <scrollSound>./art/sonidos/keyok3.mp3</scrollSound>
+<folderImage>./art/fondos/deffolder.png</folderImage>
+<gameImage>./art/fondos/defgame.png</gameImage>
 </imagegrid>
 
 <gridtile name="default">
@@ -922,6 +927,8 @@ originally based on: "simple" by nils bonenberger
 <alignment>center</alignment>
 <scrollLoop>true</scrollLoop>
 <scrollSound>./art/sonidos/romulan_computerbeep1.wav</scrollSound>
+<folderImage>./art/fondos/deffolder.png</folderImage>
+<gameImage>./art/fondos/defgame.png</gameImage>
 </imagegrid>
 
 <gridtile name="default">
@@ -1026,6 +1033,8 @@ originally based on: "simple" by nils bonenberger
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
 <scrollSound>./art/sonidos/sound highlight_.wav</scrollSound>
+<folderImage>./art/fondos/deffolder.png</folderImage>
+<gameImage>./art/fondos/defgame.png</gameImage>
 <zIndex>90</zIndex>
  <storyboard>
         <animation property="opacity" from="0" to="1" duration="850" mode="easeIn"/>
@@ -1182,6 +1191,8 @@ originally based on: "simple" by nils bonenberger
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
 <scrollSound>./art/sonidos/sound load2.wav</scrollSound>
+<folderImage>./art/fondos/deffolder.png</folderImage>
+<gameImage>./art/fondos/defgame.png</gameImage>
 <zIndex>90</zIndex>
 </imagegrid>
 
@@ -1338,6 +1349,8 @@ originally based on: "simple" by nils bonenberger
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
 <scrollSound>./art/sonidos/romulan_computerbeep1.wav</scrollSound>
+<folderImage>./art/fondos/deffolder.png</folderImage>
+<gameImage>./art/fondos/defgame.png</gameImage>
 <zIndex>90</zIndex>
 </imagegrid>
 
@@ -1504,6 +1517,8 @@ originally based on: "simple" by nils bonenberger
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
 <scrollSound>./art/sonidos/keyok3.mp3</scrollSound>
+<folderImage>./art/fondos/deffolder.png</folderImage>
+<gameImage>./art/fondos/defgame.png</gameImage>
 <zIndex>90</zIndex>
 </imagegrid>
 
@@ -1657,6 +1672,8 @@ originally based on: "simple" by nils bonenberger
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
 <scrollSound>./art/sonidos/computerbeep_20.mp3</scrollSound>
+<folderImage>./art/fondos/deffolder.png</folderImage>
+<gameImage>./art/fondos/defgame.png</gameImage>
 <zIndex>90</zIndex>
 </imagegrid>
 
@@ -1814,6 +1831,8 @@ originally based on: "simple" by nils bonenberger
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
 <scrollSound>./art/sonidos/computerbeep_20.mp3</scrollSound>
+<folderImage>./art/fondos/deffolder.png</folderImage>
+<gameImage>./art/fondos/defgame.png</gameImage>
 <zIndex>90</zIndex>
 </imagegrid>
 
@@ -1971,6 +1990,8 @@ originally based on: "simple" by nils bonenberger
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
 <scrollSound>./art/sonidos/computerbeep_20.mp3</scrollSound>
+<folderImage>./art/fondos/deffolder.png</folderImage>
+<gameImage>./art/fondos/defgame.png</gameImage>
 <zIndex>90</zIndex>
 </imagegrid>
 
@@ -2128,6 +2149,8 @@ originally based on: "simple" by nils bonenberger
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
 <scrollSound>./art/sonidos/scroll.wav</scrollSound>
+<folderImage>./art/fondos/deffolder.png</folderImage>
+<gameImage>./art/fondos/defgame.png</gameImage>
 <zIndex>90</zIndex>
 </imagegrid>
 
@@ -2285,6 +2308,8 @@ originally based on: "simple" by nils bonenberger
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
 <scrollSound>./art/sonidos/scroll.wav</scrollSound>
+<folderImage>./art/fondos/deffolder.png</folderImage>
+<gameImage>./art/fondos/defgame.png</gameImage>
 <zIndex>90</zIndex>
 </imagegrid>
 
@@ -2442,6 +2467,8 @@ originally based on: "simple" by nils bonenberger
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
 <scrollSound>./art/sonidos/keyok3.mp3</scrollSound>
+<folderImage>./art/fondos/deffolder.png</folderImage>
+<gameImage>./art/fondos/defgame.png</gameImage>
 <zIndex>90</zIndex>
 </imagegrid>
 
@@ -2590,6 +2617,8 @@ originally based on: "simple" by nils bonenberger
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
 <scrollSound>./art/sonidos/sound4.wav</scrollSound>
+<folderImage>./art/fondos/deffolder.png</folderImage>
+<gameImage>./art/fondos/defgame.png</gameImage>
 <zIndex>90</zIndex>
 </imagegrid>
 
@@ -2751,6 +2780,8 @@ originally based on: "simple" by nils bonenberger
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
 <scrollSound>./art/sonidos/sound highlight_.wav</scrollSound>
+<folderImage>./art/fondos/deffolder.png</folderImage>
+<gameImage>./art/fondos/defgame.png</gameImage>
 <zIndex>90</zIndex>
 </imagegrid>
 
@@ -2910,6 +2941,8 @@ originally based on: "simple" by nils bonenberger
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
 <scrollSound>./art/sonidos/sound.wav</scrollSound>
+<folderImage>./art/fondos/deffolder.png</folderImage>
+<gameImage>./art/fondos/defgame.png</gameImage>
 <zIndex>90</zIndex>
 </imagegrid>
 
@@ -3065,6 +3098,8 @@ originally based on: "simple" by nils bonenberger
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
 <scrollSound>./art/sonidos/romulan_computerbeep1.wav</scrollSound>
+<folderImage>./art/fondos/deffolder.png</folderImage>
+<gameImage>./art/fondos/defgame.png</gameImage>
 <zIndex>90</zIndex>
 </imagegrid>
 
@@ -3305,6 +3340,8 @@ originally based on: "simple" by nils bonenberger
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
 <scrollSound>./art/sonidos/computerbeep_21.mp3</scrollSound>
+<folderImage>./art/fondos/deffolder.png</folderImage>
+<gameImage>./art/fondos/defgame.png</gameImage>
 <zIndex>90</zIndex>
 <storyboard>       
         <animation property="scale" from="0.9" to="1.0" begin="500" duration="1200" mode="easeInOut" autoreverse="true" repeat="forever"/>        
@@ -3489,6 +3526,8 @@ originally based on: "simple" by nils bonenberger
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
 <scrollSound>./art/sonidos/sound4.wav</scrollSound>
+<folderImage>./art/fondos/deffolder.png</folderImage>
+<gameImage>./art/fondos/defgame.png</gameImage>
 <zIndex>90</zIndex>
 <storyboard>       
 <animation property="opacity" from="0" to="1" duration="950" mode="easeIn"/>
@@ -3688,6 +3727,8 @@ originally based on: "simple" by nils bonenberger
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
 <scrollSound>./art/sonidos/soundbasic.wav</scrollSound>
+<folderImage>./art/fondos/deffolder.png</folderImage>
+<gameImage>./art/fondos/defgame.png</gameImage>
 <zIndex>90</zIndex>
 <storyboard>       
 <animation property="opacity" from="0" to="1" duration="950" mode="easeIn"/>
@@ -3887,6 +3928,8 @@ originally based on: "simple" by nils bonenberger
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
 <scrollSound>./art/sonidos/scroll.wav</scrollSound>
+<folderImage>./art/fondos/deffolder.png</folderImage>
+<gameImage>./art/fondos/defgame.png</gameImage>
 <zIndex>90</zIndex>
 <storyboard>       
 <animation property="opacity" from="0" to="1" duration="950" mode="easeIn"/>
@@ -4073,6 +4116,8 @@ originally based on: "simple" by nils bonenberger
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
 <scrollSound>./art/sonidos/computerbeep_5.mp3.mp3</scrollSound>
+<folderImage>./art/fondos/deffolder.png</folderImage>
+<gameImage>./art/fondos/defgame.png</gameImage>
 <zIndex>90</zIndex>
 <storyboard>       
 <animation property="opacity" from="0" to="1" duration="950" mode="easeIn"/>
@@ -4388,6 +4433,8 @@ originally based on: "simple" by nils bonenberger
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
 <scrollSound>./art/sonidos/computerbeep_20.mp3</scrollSound>
+<folderImage>./art/fondos/deffolder.png</folderImage>
+<gameImage>./art/fondos/defgame.png</gameImage>
 <zIndex>90</zIndex>
 <storyboard>       
 <animation property="opacity" from="0" to="1" duration="950" mode="easeIn"/>
@@ -4558,6 +4605,8 @@ originally based on: "simple" by nils bonenberger
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
 <scrollSound>./art/sonidos/computerbeep_21.mp3</scrollSound>
+<folderImage>./art/fondos/deffolder.png</folderImage>
+<gameImage>./art/fondos/defgame.png</gameImage>
 <zIndex>90</zIndex>
 <storyboard>       
 <animation property="opacity" from="0" to="1" duration="950" mode="easeIn"/>
@@ -4740,6 +4789,8 @@ originally based on: "simple" by nils bonenberger
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
 <scrollSound>./art/sonidos/sound basic.wav</scrollSound>
+<folderImage>./art/fondos/deffolder.png</folderImage>
+<gameImage>./art/fondos/defgame.png</gameImage>
 <zIndex>90</zIndex>
 <storyboard>       
        <animation property="x" from="0" begin="0" duration="2250" mode="easeOut"/>    
@@ -4921,6 +4972,8 @@ originally based on: "simple" by nils bonenberger
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
 <scrollSound>./art/sonidos/computerbeep_20.mp3</scrollSound>
+<folderImage>./art/fondos/deffolder.png</folderImage>
+<gameImage>./art/fondos/defgame.png</gameImage>
 <storyboard> 
 <animation property="x" from="1.01" begin="0" duration="2250" mode="easeOut"/>
 </storyboard>
@@ -5111,6 +5164,8 @@ originally based on: "simple" by nils bonenberger
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
 <scrollSound>./art/sonidos/sound highlight_.wav</scrollSound>
+<folderImage>./art/fondos/deffolder.png</folderImage>
+<gameImage>./art/fondos/defgame.png</gameImage>
 <zIndex>90</zIndex>
  <storyboard>
         <animation property="opacity" from="0" to="1" duration="850" mode="easeIn"/>
@@ -5426,6 +5481,8 @@ originally based on: "simple" by nils bonenberger
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
 <scrollSound>./art/sonidos/computerbeep_21.mp3</scrollSound>
+<folderImage>./art/fondos/deffolder.png</folderImage>
+<gameImage>./art/fondos/defgame.png</gameImage>
 <zIndex>90</zIndex>
 <storyboard>       
        <animation property="x" from="1.01" begin="0" duration="2250" mode="easeOut"/>    
@@ -5714,6 +5771,213 @@ originally based on: "simple" by nils bonenberger
 </image>
 </customView>
 
+<customView name="Hard Mix" inherits="grid" displayName="${gridDetailsViewName}">
+<image name="background" extra="true">
+<tile>false</tile>
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./art/sistemas/wall/default.png</path>
+<path>./art/sistemas/wall/${system.theme}.png</path>
+<zIndex>10</zIndex>
+</image>
+   
+<imagegrid name="gamegrid">
+<pos>0.01 -0.09</pos>
+<size>0.30 0.983</size>
+<padding>0.04 .50 0.07 0.30</padding>
+<scrollDirection>vertical</scrollDirection>
+<autoLayout>1 1</autoLayout>
+<imageSource>marquee</imageSource>
+<autoLayoutSelectedZoom>1.46</autoLayoutSelectedZoom>
+<margin>0.005 0.02</margin>
+<centerSelection>true</centerSelection>
+<scrollLoop>true</scrollLoop>
+<alignment>left</alignment>
+<scrollSound>./art/sonidos/computerbeep_20.mp3</scrollSound>
+<folderImage>./art/fondos/deffolder.png</folderImage>
+<gameImage>./art/fondos/defgame.png</gameImage>
+<storyboard> 
+<animation property="x" from="1.01" begin="0" duration="1050" mode="easeOut"/>
+</storyboard>
+<zIndex>90</zIndex>
+</imagegrid>
+
+ <image name="gridtile.favorite">
+<path>./art/gridfav.png</path>
+<pos>0.75 0</pos>
+<maxSize>0.25 0.25</maxSize>
+<origin>0 0</origin>
+<color>A0A0A0A0</color>
+</image>  
+    
+<gridtile name="default">
+<padding>50 16</padding>
+<backgroundCenterColor>FFFFFF00</backgroundCenterColor>
+<backgroundEdgeColor>FFFFFF00</backgroundEdgeColor>
+<imageSizeMode>maxSize</imageSizeMode>
+<imageColor>FFFFFF</imageColor>
+<reflexion>0.00 0.0</reflexion>
+</gridtile>
+
+<gridtile name="selected">
+<backgroundCenterColor>00000000</backgroundCenterColor>
+<backgroundEdgeColor>00000000</backgroundEdgeColor>
+<padding>55 13</padding>
+<imageColor>FFFFFF</imageColor>
+</gridtile>
+
+<text name="gridtile">
+<color>1C00ff00</color>
+<backgroundColor>00000000</backgroundColor>
+<fontSize>0.022</fontSize>
+<alignment>center</alignment>
+<size>1 0.24</size>
+</text>
+<text name="gridtile_selected">
+<color>1C00ff00</color>
+<glowColor>${glowColor}</glowColor>
+<glowSize>0</glowSize>
+</text>
+
+<text name="md_name">
+<visible>false</visible>
+<color>ffffff</color>
+<pos>0.26 0.790</pos>
+<size>0.30 0.05</size>
+<fontSize>0.042</fontSize>
+<fontPath>./art/fuentes/Bebas Neue.ttf</fontPath>
+<alignment>left</alignment>
+<glowColor>00000060</glowColor>
+<glowSize>2</glowSize>
+</text>
+    
+<image name="fondotv" extra="true">
+<tile>false</tile>
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./art/fondos/retro tv.png</path>
+<zIndex>55</zIndex>
+</image>
+
+<image name="predeterminado" extra="true">
+<tile>false</tile>
+<Delay>800</Delay>
+<pos>0.6677 0.538</pos>
+<origin>0.5 0.5</origin>
+<size>0.5510 0.558</size>
+<rotation>0</rotation>  
+<path>./art/fondos/default.png</path>
+<zIndex>53</zIndex>
+<storyboard>
+        <animation property="y" from="0.05" begin="0" duration="350" mode="easeOut"/>
+        <animation property="opacity" from="0" to="1" duration="2950" mode="easeIn"/>
+        <animation property="scale" from="0" to="1" duration="350" mode="easeOut"/>
+      </storyboard>
+</image>
+
+<image name="consola" extra="true">
+<path>./art/sistemas/consoles/default.png</path>
+<path>./art/sistemas/consoles/${system.theme}.png</path>
+<color>FFFFFFFF</color>
+<origin>0 0</origin>
+<pos>0.8250 0.8030</pos>
+<size>0.1300 0.1300</size>
+<reflexion>0.30 0.0</reflexion>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="4000" repeat="3"/>
+</storyboard>  
+<zIndex>90</zIndex>
+</image>
+
+<image name="personaje" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>FFFFFFFF</color>
+<origin>0 0</origin>
+<pos>0.250 0.2560</pos>
+<size>0.2095 0.7055</size>
+<glowColor>000000</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>60</zIndex>
+<storyboard>
+<animation property="h" from="0.001" to="0.7055" begin="0" duration="1950" mode="EaseOutQuint" repeat="1"/> 
+</storyboard>    
+</image>
+
+<image name="md_image">
+<visible>true</visible>
+<pos>0.6677 0.538</pos>
+<origin>0.5 0.5</origin>
+<size>0.5510 0.558</size>
+<roundCorners>0.04.7</roundCorners>
+<zIndex>19</zIndex>
+</image>
+
+<video name="md_video">
+<pos>0.6677 0.538</pos>
+<origin>0.5 0.5</origin>
+<size>0.5510 0.558</size>
+<delay>0</delay>
+<showSnapshotNoVideo>false</showSnapshotNoVideo>
+<showSnapshotDelay>false</showSnapshotDelay>
+<roundCorners>0.04.7</roundCorners>
+<zIndex>54</zIndex>
+<storyboard>
+<animation property="color" from="1800" begin="0" duration="1950" mode="EaseOutQuint"/>
+<animation property="w" from="0.001"  to="0.5510" duration="1950" mode="EaseOutQuint"/>
+</storyboard>
+</video>
+
+<image name="md_thumbnail">
+<visible>false</visible>
+<pos>0.290 0.170</pos>
+<size>0.400 0.145</size>
+<origin>0.5 1</origin>
+<zIndex>90</zIndex>
+</image>	
+
+<helpsystem name="help">
+<visible>false</visible>
+<textColor>000000</textColor>
+<iconColor>000000</iconColor>
+<fontSize>0.020</fontSize>
+<pos>0.9995 0.9992</pos>
+</helpsystem>
+
+<text name="logoText">
+<pos>0.345 0.910</pos>
+<size>0.339 0.132</size>
+<origin>0.5 0.5</origin>
+<alignment>center</alignment>
+<fontSize>0.08</fontSize>
+<fontPath>./art/fuentes/Bebas Neue.ttf</fontPath>
+<color>${baseColor}</color>
+</text>
+<image name="logo">
+<path>./art/sistemas/ticket/default.png</path>
+<path>./art/sistemas/ticket/${system.theme}.png</path>
+<pos>0.645 0.080</pos>
+<size>0.250 0.120</size>
+<origin>0.5 0.5</origin>
+<storyboard>
+<animation property="color" from="1800" begin="0" duration="1950" mode="EaseOutQuint"/>
+<animation property="w" from="0.001"  to="0.250" duration="1950" mode="EaseOutQuint"/>
+</storyboard>
+</image>
+
+ <rating name="md_rating">
+ <visible>false</visible>
+<pos>0.06 0.800</pos>
+<size>0.05 0.03</size>
+<color>FFFFFF</color>
+<unfilledColor>808080</unfilledColor>
+</rating>
+</customView>
+
+
 <!---------------------------Tiles------------------------------------- -->
 
 <customView name="Tiles ScanLine" inherits="grid" displayName="${tilesViewName}">
@@ -5739,6 +6003,8 @@ originally based on: "simple" by nils bonenberger
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
 <scrollSound>./art/sonidos/sound highlight_.wav</scrollSound>
+<folderImage>./art/fondos/deffolder.png</folderImage>
+<gameImage>./art/fondos/defgame.png</gameImage>
 <zIndex>90</zIndex>
 <storyboard> 
 <animation property="x" from="1.01" begin="0" duration="1850" mode="easeOut"/>
@@ -5900,6 +6166,8 @@ originally based on: "simple" by nils bonenberger
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
 <scrollSound>./art/sonidos/scroll.wav</scrollSound>
+<folderImage>./art/fondos/deffolder.png</folderImage>
+<gameImage>./art/fondos/defgame.png</gameImage>
 <zIndex>90</zIndex>
 <storyboard> 
 <animation property="x" from="1.01" begin="0" duration="1850" mode="easeOut"/>
@@ -6077,6 +6345,8 @@ originally based on: "simple" by nils bonenberger
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
 <scrollSound>./art/sonidos/sound systemsound.wav</scrollSound>
+<folderImage>./art/fondos/deffolder.png</folderImage>
+<gameImage>./art/fondos/defgame.png</gameImage>
 <zIndex>90</zIndex>
 <storyboard>  
         <animation property="x" from="0" begin="0" duration="1250" mode="easeOut"/>  
