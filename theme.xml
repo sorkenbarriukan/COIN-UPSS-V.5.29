@@ -5996,7 +5996,7 @@ originally based on: "simple" by nils bonenberger
 <padding>0.04 .50 0.07 0.30</padding>
 <scrollDirection>vertical</scrollDirection>
 <autoLayout>1 1</autoLayout>
-<imageSource>image</imageSource>
+<imageSource>thumbnail</imageSource>
 <autoLayoutSelectedZoom>2.70</autoLayoutSelectedZoom>
 <margin>0.005 0.02</margin>
 <centerSelection>false</centerSelection>
@@ -6159,7 +6159,7 @@ originally based on: "simple" by nils bonenberger
 <padding>0.04 .50 0.07 0.30</padding>
 <scrollDirection>vertical</scrollDirection>
 <autoLayout>1 1</autoLayout>
-<imageSource>image</imageSource>
+<imageSource>thumbnail</imageSource>
 <autoLayoutSelectedZoom>2.49</autoLayoutSelectedZoom>
 <margin>0.005 0.02</margin>
 <centerSelection>false</centerSelection>
@@ -6338,7 +6338,7 @@ originally based on: "simple" by nils bonenberger
 <padding>0.04 .50 0.07 0.30</padding>
 <scrollDirection>vertical</scrollDirection>
 <autoLayout>1 1</autoLayout>
-<imageSource>image</imageSource>
+<imageSource>thumbnail</imageSource>
 <autoLayoutSelectedZoom>2.49</autoLayoutSelectedZoom>
 <margin>0.005 0.02</margin>
 <centerSelection>false</centerSelection>

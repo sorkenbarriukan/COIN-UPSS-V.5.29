@@ -76,7 +76,8 @@
 <origin>0 0</origin>
 <pos>0.2250 0.2567</pos>
 <size>0.2595 0.7455</size>
-<storyboard> 
+<storyboard>
+<animation property="opacity" from="0" to="10" duration="2950" mode="easeIn"/> 
 <animation property="x" from="1.01" begin="0" duration="2250" mode="easeOut"/>
 </storyboard>
 <zIndex>60</zIndex>
