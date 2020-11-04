@@ -60,8 +60,19 @@
 <origin>0 0</origin>
 <pos>0.2250 0.2567</pos>
 <size>0.2595 0.7455</size>
-<storyboard>       
-        <animation property="scale" from="0.9" to="1.0" begin="500" duration="1200" mode="easeInOut" autoreverse="true" repeat="forever"/>        
+<storyboard>
+<animation property="opacity" from="0" to="10" duration="3950" mode="easeIn"/>       
+<animation property="x" from="1.01" begin="0.7455" duration="2250" mode="easeOut" autoreverse="false"/>
+<animation property="x" from="0.2250" to="0.2900" duration="40" autoreverse="true" begin="6000" repeat="4" />
+<animation property="x" from="0.2250" to="0.2900" duration="40" autoreverse="true" begin="12000" repeat="4"/>
+<animation property="x" from="0.2250" to="0.2900" duration="40" autoreverse="true" begin="18000" repeat="4"/>
+<animation property="x" from="0.2250" to="0.2900" duration="40" autoreverse="true" begin="24000" repeat="4"/>
+<animation property="x" from="0.2250" to="0.2900" duration="40" autoreverse="true" begin="30000" repeat="4"/>
+<animation property="x" from="0.2250" to="0.2900" duration="40" autoreverse="true" begin="36000" repeat="4"/>
+<animation property="x" from="0.2250" to="0.2900" duration="40" autoreverse="true" begin="42000" repeat="4"/>
+<animation property="x" from="0.2250" to="0.2900" duration="40" autoreverse="true" begin="48000" repeat="4"/>
+<animation property="x" from="0.2250" to="0.2900" duration="40" autoreverse="true" begin="54000" repeat="4"/>
+<animation property="x" from="0.2250" to="0.2900" duration="40" autoreverse="true" begin="60000" repeat="4"/>
 </storyboard>
 <zIndex>60</zIndex>
 </image>

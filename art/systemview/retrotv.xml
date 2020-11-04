@@ -63,7 +63,6 @@
 <color>FFFFFF</color>   
 <zIndex>54</zIndex>
 <storyboard>
-<animation property="color" from="1800" begin="0" duration="1950" mode="EaseOutQuint"/>
 <animation property="w" from="0.001"  to="0.5510" duration="1950" mode="EaseOutQuint"/>
 </storyboard> 
 </video>
@@ -82,7 +81,7 @@
 <zIndex>90</zIndex>
 </image>
 
-<image name="personaje" extra="true">
+<image name="personaje1" extra="true">
 <path>./art/sistemas/character/default.png</path>
 <path>./art/sistemas/character/${system.theme}.png</path>
 <color>FFFFFFFF</color>
@@ -94,9 +93,33 @@
 <reflexion>0.50 0.0</reflexion>
 <zIndex>60</zIndex>
 <storyboard>
-<animation property="h" from="0.001" to="0.7055" begin="0" duration="1950" mode="EaseOutQuint" repeat="1"/>    
+<animation property="opacity" from="0" to="10" duration="3950" mode="easeIn"/>    
+<animation property="x" from="1.01" begin="0" duration="2250" mode="easeOut"/>    
 </storyboard>
 </image>
+
+<image name="personaje2" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>FFFFFFFF</color>
+<origin>0 0</origin>
+<pos>0.250 0.2560</pos>
+<size>0.2095 0.7055</size>
+<glowColor>000000</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>61</zIndex>
+<storyboard>
+<animation property="opacity" from="0" to="10" duration="3950" mode="easeIn"/>
+<animation property="x" from="0" begin="0" duration="2250" mode="easeOut"/>    
+</storyboard>
+</image>
+
+
+
+
+
+
 
 <carousel name="systemcarousel">
 <zIndex>43</zIndex>	      
