@@ -1,0 +1,23 @@
+
+
+Archivo es_systems.cfg esta configurado para leer las demás colecciones que funcionan con el emulador de mame por ejemplo: banpresto, irem, jaleo, kaneco, dataeast, toaplan etc, 
+
+El archivo solo pégalo en la ruta. Share/system/config/emulationstation
+
+------------------------------------------------------------------------------------
+
+The es_systems.cfg file is configured to read the other collections that work with the mame emulator for example: banpresto, irem, jaleo, kaneco, dataeast, toaplan etc,
+
+The file just paste it in the path. Share / system / config / emulationstation
+
+------------------------------------------------------------------------------------
+
+Le fichier es_systems.cfg est configuré pour lire les autres collections qui fonctionnent avec l'émulateur mame par exemple: banpresto, irem, jaleo, kaneco, dataeast, toaplan etc,
+
+Le fichier collez-le simplement dans le chemin. Partager / système / config / emulationstation
+
+------------------------------------------------------------------------------------
+
+O arquivo es_systems.cfg está configurado para ler as outras coleções que funcionam com o emulador mame, por exemplo: banpresto, irem, jaleo, kaneco, dataeast, toaplan etc,
+
+O arquivo basta colá-lo no caminho. Compartilhar / sistema / config / emulationstation
