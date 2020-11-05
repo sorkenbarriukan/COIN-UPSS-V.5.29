@@ -107,7 +107,6 @@
 		<logoRotationOrigin>-5.0 0.5</logoRotationOrigin>
 		<logoAlignment>center</logoAlignment>   
 <zIndex>90</zIndex> 
-<scrollSound>./art/sonidos/keyok2.mp3</scrollSound>        
 </carousel>
 
 <text name="systemInfo">

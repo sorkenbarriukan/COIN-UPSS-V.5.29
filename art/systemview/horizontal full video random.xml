@@ -48,7 +48,6 @@
 <systemInfoDelay>700</systemInfoDelay>
 <pos>0 0.3837</pos>
 <size>1 0.2325</size>
-<scrollSound>./art/sonidos/keyok3.mp3</scrollSound>
 </carousel>
 <image name="carousel-inner" extra="true">
 <path>./../carousel2.png</path>

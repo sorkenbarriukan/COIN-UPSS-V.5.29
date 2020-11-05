@@ -87,7 +87,6 @@
 <logoAlignment>right</logoAlignment>
 <maxLogoCount>13</maxLogoCount>
 <zIndex>75</zIndex>
-<scrollSound>./art/sonidos/computerbeep_19.mp3</scrollSound>
 </carousel>
 
 <text name="systemInfo">

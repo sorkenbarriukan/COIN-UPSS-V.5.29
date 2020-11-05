@@ -35,6 +35,48 @@ originally based on: "simple" by nils bonenberger
 <include name="glass effect">./art/shader/glass effect.xml</include>
 </subset>
 
+<!--sonidos en navegacion -->
+
+<subset name="Sounds Navigation" displayName="${subset.Sounds Navigation}">
+<include name="None" displayName="${none}"/>
+<include name="dkJump">./art/sistemas/sounds navigation/dkjump.xml</include>
+<include name="smwactivated">./art/sistemas/sounds navigation/smw activated.xml</include>
+<include name="basic">./art/sistemas/sounds navigation/basic.xml</include>
+<include name="beep_4">./art/sistemas/sounds navigation/beep_4.xml</include>
+<include name="beep_5">./art/sistemas/sounds navigation/beep_5.xml</include>
+<include name="beep_9">./art/sistemas/sounds navigation/beep_9.xml</include>
+<include name="beep_11">./art/sistemas/sounds navigation/beep_11.xml</include>
+<include name="beep_12">./art/sistemas/sounds navigation/beep_12.xml</include>
+<include name="beep_13">./art/sistemas/sounds navigation/beep_13.xml</include>
+<include name="beep_19">./art/sistemas/sounds navigation/beep_19.xml</include>
+<include name="beep_20">./art/sistemas/sounds navigation/beep_20.xml</include>
+<include name="beep_21">./art/sistemas/sounds navigation/beep_21.xml</include>
+<include name="highlight">./art/sistemas/sounds navigation/highlight.xml</include>
+<include name="keyok2">./art/sistemas/sounds navigation/keyok2.xml</include>
+<include name="keyok3">./art/sistemas/sounds navigation/keyok3.xml</include>
+<include name="keyok5">./art/sistemas/sounds navigation/keyok5.xml</include>
+<include name="lm_coin">./art/sistemas/sounds navigation/lm_coin.xml</include>
+<include name="lm_ghost">./art/sistemas/sounds navigation/lm_ghost.xml</include>
+<include name="load">./art/sistemas/sounds navigation/load.xml</include>
+<include name="mb_jump">./art/sistemas/sounds navigation/mb_jump.xml</include>
+<include name="mb_sc">./art/sistemas/sounds navigation/mb_sc.xml</include>
+<include name="mb_touch">./art/sistemas/sounds navigation/mb_touch.xml</include>
+<include name="no_damage">./art/sistemas/sounds navigation/no_damage.xml</include>
+<include name="nsmb_pause">./art/sistemas/sounds navigation/nsmb_pause.xml</include>
+<include name="romulan_beep1">./art/sistemas/sounds navigation/romulan_beep1.xml</include>
+<include name="scroll">./art/sistemas/sounds navigation/scroll.xml</include>
+<include name="scroll2">./art/sistemas/sounds navigation/scroll2.xml</include>
+<include name="scroll3">./art/sistemas/sounds navigation/scroll3.xml</include>
+<include name="smb3_map_travel">./art/sistemas/sounds navigation/smb3_map_travel.xml</include>
+<include name="smw_1-up">./art/sistemas/sounds navigation/smw_1-up.xml</include>
+<include name="smw_coin">./art/sistemas/sounds navigation/smw_coin.xml</include>
+<include name="smw_fireball">./art/sistemas/sounds navigation/smw_fireball.xml</include>
+<include name="smw_kick">./art/sistemas/sounds navigation/smw_kick.xml</include>
+<include name="smw_stomp">./art/sistemas/sounds navigation/smw_stomp.xml</include>
+<include name="systemsound">./art/sistemas/sounds navigation/systemsound.xml</include>
+</subset>
+
+
 <view name="system">
 <image name="background" extra="true">
 <tile>true</tile>
@@ -217,7 +259,6 @@ originally based on: "simple" by nils bonenberger
 <alignment>center</alignment>
 <horizontalMargin>0.01</horizontalMargin>
 <forceUppercase>1</forceUppercase>
-<scrollSound>./art/sonidos/scroll.wav</scrollSound>
 <zIndex>40</zIndex>
 </textlist>
     
@@ -290,7 +331,6 @@ originally based on: "simple" by nils bonenberger
 <alignment>left</alignment>
 <horizontalMargin>0.00</horizontalMargin>
 <fontSize>0.03</fontSize>
-<scrollSound>./art/sonidos/romulan_computerbeep1.wav</scrollSound>
 <zIndex>90</zIndex>
 </textlist>
 
@@ -544,7 +584,6 @@ originally based on: "simple" by nils bonenberger
 <imageSource>image</imageSource>
 <autoLayoutSelectedZoom>1.12</autoLayoutSelectedZoom>
 <animateSelection>false</animateSelection>
-<scrollSound>./art/sonidos/computerbeep_11.mp3</scrollSound>
 <folderImage>./art/fondos/deffolder.png</folderImage>
 <gameImage>./art/fondos/defgame.png</gameImage>
 </imagegrid>
@@ -654,7 +693,6 @@ originally based on: "simple" by nils bonenberger
 <imageSource>image</imageSource>
 <autoLayoutSelectedZoom>1.12</autoLayoutSelectedZoom>
 <animateSelection>false</animateSelection>
-<scrollSound>./art/sonidos/keyok3.mp3</scrollSound>
 <folderImage>./art/fondos/deffolder.png</folderImage>
 <gameImage>./art/fondos/defgame.png</gameImage>
 </imagegrid>
@@ -926,7 +964,6 @@ originally based on: "simple" by nils bonenberger
 <animateSelection>true</animateSelection>
 <alignment>center</alignment>
 <scrollLoop>true</scrollLoop>
-<scrollSound>./art/sonidos/romulan_computerbeep1.wav</scrollSound>
 <folderImage>./art/fondos/deffolder.png</folderImage>
 <gameImage>./art/fondos/defgame.png</gameImage>
 </imagegrid>
@@ -1032,7 +1069,6 @@ originally based on: "simple" by nils bonenberger
 <centerSelection>true</centerSelection>
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
-<scrollSound>./art/sonidos/sound highlight_.wav</scrollSound>
 <folderImage>./art/fondos/deffolder.png</folderImage>
 <gameImage>./art/fondos/defgame.png</gameImage>
 <zIndex>90</zIndex>
@@ -1190,7 +1226,6 @@ originally based on: "simple" by nils bonenberger
 <centerSelection>false</centerSelection>
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
-<scrollSound>./art/sonidos/sound load2.wav</scrollSound>
 <folderImage>./art/fondos/deffolder.png</folderImage>
 <gameImage>./art/fondos/defgame.png</gameImage>
 <zIndex>90</zIndex>
@@ -1348,7 +1383,6 @@ originally based on: "simple" by nils bonenberger
 <centerSelection>false</centerSelection>
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
-<scrollSound>./art/sonidos/romulan_computerbeep1.wav</scrollSound>
 <folderImage>./art/fondos/deffolder.png</folderImage>
 <gameImage>./art/fondos/defgame.png</gameImage>
 <zIndex>90</zIndex>
@@ -1516,7 +1550,6 @@ originally based on: "simple" by nils bonenberger
 <centerSelection>false</centerSelection>
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
-<scrollSound>./art/sonidos/keyok3.mp3</scrollSound>
 <folderImage>./art/fondos/deffolder.png</folderImage>
 <gameImage>./art/fondos/defgame.png</gameImage>
 <zIndex>90</zIndex>
@@ -1671,7 +1704,6 @@ originally based on: "simple" by nils bonenberger
 <centerSelection>false</centerSelection>
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
-<scrollSound>./art/sonidos/computerbeep_20.mp3</scrollSound>
 <folderImage>./art/fondos/deffolder.png</folderImage>
 <gameImage>./art/fondos/defgame.png</gameImage>
 <zIndex>90</zIndex>
@@ -1830,7 +1862,6 @@ originally based on: "simple" by nils bonenberger
 <centerSelection>false</centerSelection>
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
-<scrollSound>./art/sonidos/computerbeep_20.mp3</scrollSound>
 <folderImage>./art/fondos/deffolder.png</folderImage>
 <gameImage>./art/fondos/defgame.png</gameImage>
 <zIndex>90</zIndex>
@@ -1989,7 +2020,6 @@ originally based on: "simple" by nils bonenberger
 <centerSelection>false</centerSelection>
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
-<scrollSound>./art/sonidos/computerbeep_20.mp3</scrollSound>
 <folderImage>./art/fondos/deffolder.png</folderImage>
 <gameImage>./art/fondos/defgame.png</gameImage>
 <zIndex>90</zIndex>
@@ -2148,7 +2178,6 @@ originally based on: "simple" by nils bonenberger
 <centerSelection>false</centerSelection>
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
-<scrollSound>./art/sonidos/scroll.wav</scrollSound>
 <folderImage>./art/fondos/deffolder.png</folderImage>
 <gameImage>./art/fondos/defgame.png</gameImage>
 <zIndex>90</zIndex>
@@ -2307,7 +2336,6 @@ originally based on: "simple" by nils bonenberger
 <centerSelection>false</centerSelection>
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
-<scrollSound>./art/sonidos/scroll.wav</scrollSound>
 <folderImage>./art/fondos/deffolder.png</folderImage>
 <gameImage>./art/fondos/defgame.png</gameImage>
 <zIndex>90</zIndex>
@@ -2466,7 +2494,6 @@ originally based on: "simple" by nils bonenberger
 <centerSelection>false</centerSelection>
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
-<scrollSound>./art/sonidos/keyok3.mp3</scrollSound>
 <folderImage>./art/fondos/deffolder.png</folderImage>
 <gameImage>./art/fondos/defgame.png</gameImage>
 <zIndex>90</zIndex>
@@ -2616,7 +2643,6 @@ originally based on: "simple" by nils bonenberger
 <centerSelection>false</centerSelection>
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
-<scrollSound>./art/sonidos/sound4.wav</scrollSound>
 <folderImage>./art/fondos/deffolder.png</folderImage>
 <gameImage>./art/fondos/defgame.png</gameImage>
 <zIndex>90</zIndex>
@@ -2779,7 +2805,6 @@ originally based on: "simple" by nils bonenberger
 <centerSelection>false</centerSelection>
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
-<scrollSound>./art/sonidos/sound highlight_.wav</scrollSound>
 <folderImage>./art/fondos/deffolder.png</folderImage>
 <gameImage>./art/fondos/defgame.png</gameImage>
 <zIndex>90</zIndex>
@@ -2940,7 +2965,6 @@ originally based on: "simple" by nils bonenberger
 <centerSelection>false</centerSelection>
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
-<scrollSound>./art/sonidos/sound.wav</scrollSound>
 <folderImage>./art/fondos/deffolder.png</folderImage>
 <gameImage>./art/fondos/defgame.png</gameImage>
 <zIndex>90</zIndex>
@@ -3097,7 +3121,6 @@ originally based on: "simple" by nils bonenberger
 <centerSelection>false</centerSelection>
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
-<scrollSound>./art/sonidos/romulan_computerbeep1.wav</scrollSound>
 <folderImage>./art/fondos/deffolder.png</folderImage>
 <gameImage>./art/fondos/defgame.png</gameImage>
 <zIndex>90</zIndex>
@@ -3339,7 +3362,6 @@ originally based on: "simple" by nils bonenberger
 <centerSelection>true</centerSelection>
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
-<scrollSound>./art/sonidos/computerbeep_21.mp3</scrollSound>
 <folderImage>./art/fondos/deffolder.png</folderImage>
 <gameImage>./art/fondos/defgame.png</gameImage>
 <zIndex>90</zIndex>
@@ -3525,7 +3547,6 @@ originally based on: "simple" by nils bonenberger
 <centerSelection>false</centerSelection>
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
-<scrollSound>./art/sonidos/sound4.wav</scrollSound>
 <folderImage>./art/fondos/deffolder.png</folderImage>
 <gameImage>./art/fondos/defgame.png</gameImage>
 <zIndex>90</zIndex>
@@ -3726,7 +3747,6 @@ originally based on: "simple" by nils bonenberger
 <centerSelection>false</centerSelection>
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
-<scrollSound>./art/sonidos/soundbasic.wav</scrollSound>
 <folderImage>./art/fondos/deffolder.png</folderImage>
 <gameImage>./art/fondos/defgame.png</gameImage>
 <zIndex>90</zIndex>
@@ -3927,7 +3947,6 @@ originally based on: "simple" by nils bonenberger
 <centerSelection>false</centerSelection>
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
-<scrollSound>./art/sonidos/scroll.wav</scrollSound>
 <folderImage>./art/fondos/deffolder.png</folderImage>
 <gameImage>./art/fondos/defgame.png</gameImage>
 <zIndex>90</zIndex>
@@ -4115,7 +4134,6 @@ originally based on: "simple" by nils bonenberger
 <centerSelection>false</centerSelection>
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
-<scrollSound>./art/sonidos/computerbeep_5.mp3.mp3</scrollSound>
 <folderImage>./art/fondos/deffolder.png</folderImage>
 <gameImage>./art/fondos/defgame.png</gameImage>
 <zIndex>90</zIndex>
@@ -4432,7 +4450,6 @@ originally based on: "simple" by nils bonenberger
 <centerSelection>true</centerSelection>
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
-<scrollSound>./art/sonidos/computerbeep_20.mp3</scrollSound>
 <folderImage>./art/fondos/deffolder.png</folderImage>
 <gameImage>./art/fondos/defgame.png</gameImage>
 <zIndex>90</zIndex>
@@ -4604,7 +4621,6 @@ originally based on: "simple" by nils bonenberger
 <centerSelection>true</centerSelection>
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
-<scrollSound>./art/sonidos/computerbeep_21.mp3</scrollSound>
 <folderImage>./art/fondos/deffolder.png</folderImage>
 <gameImage>./art/fondos/defgame.png</gameImage>
 <zIndex>90</zIndex>
@@ -4788,7 +4804,6 @@ originally based on: "simple" by nils bonenberger
 <centerSelection>true</centerSelection>
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
-<scrollSound>./art/sonidos/sound basic.wav</scrollSound>
 <folderImage>./art/fondos/deffolder.png</folderImage>
 <gameImage>./art/fondos/defgame.png</gameImage>
 <zIndex>90</zIndex>
@@ -4971,7 +4986,6 @@ originally based on: "simple" by nils bonenberger
 <centerSelection>true</centerSelection>
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
-<scrollSound>./art/sonidos/computerbeep_20.mp3</scrollSound>
 <folderImage>./art/fondos/deffolder.png</folderImage>
 <gameImage>./art/fondos/defgame.png</gameImage>
 <storyboard> 
@@ -5163,7 +5177,6 @@ originally based on: "simple" by nils bonenberger
 <centerSelection>true</centerSelection>
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
-<scrollSound>./art/sonidos/sound highlight_.wav</scrollSound>
 <folderImage>./art/fondos/deffolder.png</folderImage>
 <gameImage>./art/fondos/defgame.png</gameImage>
 <zIndex>90</zIndex>
@@ -5480,7 +5493,6 @@ originally based on: "simple" by nils bonenberger
 <centerSelection>false</centerSelection>
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
-<scrollSound>./art/sonidos/computerbeep_21.mp3</scrollSound>
 <folderImage>./art/fondos/deffolder.png</folderImage>
 <gameImage>./art/fondos/defgame.png</gameImage>
 <zIndex>90</zIndex>
@@ -5794,7 +5806,6 @@ originally based on: "simple" by nils bonenberger
 <centerSelection>true</centerSelection>
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
-<scrollSound>./art/sonidos/computerbeep_20.mp3</scrollSound>
 <folderImage>./art/fondos/deffolder.png</folderImage>
 <gameImage>./art/fondos/defgame.png</gameImage>
 <storyboard> 
@@ -6002,7 +6013,6 @@ originally based on: "simple" by nils bonenberger
 <centerSelection>false</centerSelection>
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
-<scrollSound>./art/sonidos/sound highlight_.wav</scrollSound>
 <folderImage>./art/fondos/deffolder.png</folderImage>
 <gameImage>./art/fondos/defgame.png</gameImage>
 <zIndex>90</zIndex>
@@ -6165,7 +6175,6 @@ originally based on: "simple" by nils bonenberger
 <centerSelection>false</centerSelection>
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
-<scrollSound>./art/sonidos/scroll.wav</scrollSound>
 <folderImage>./art/fondos/deffolder.png</folderImage>
 <gameImage>./art/fondos/defgame.png</gameImage>
 <zIndex>90</zIndex>
@@ -6344,7 +6353,6 @@ originally based on: "simple" by nils bonenberger
 <centerSelection>false</centerSelection>
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
-<scrollSound>./art/sonidos/sound systemsound.wav</scrollSound>
 <folderImage>./art/fondos/deffolder.png</folderImage>
 <gameImage>./art/fondos/defgame.png</gameImage>
 <zIndex>90</zIndex>

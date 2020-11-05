@@ -42,7 +42,6 @@
 <logoRotationOrigin>3.0 0.5</logoRotationOrigin>
 <logoAlignment>center</logoAlignment>   
 <zIndex>90</zIndex>  
-<scrollSound>./art/sonidos/computerbeep_4.mp3</scrollSound>    
 <zIndex>20</zIndex>   
 </carousel>
 

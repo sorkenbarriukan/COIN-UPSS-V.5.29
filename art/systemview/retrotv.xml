@@ -115,12 +115,6 @@
 </storyboard>
 </image>
 
-
-
-
-
-
-
 <carousel name="systemcarousel">
 <zIndex>43</zIndex>	      
 <type>vertical</type>
@@ -134,7 +128,7 @@
 <logoRotationOrigin>3.0 0.5</logoRotationOrigin>
 <logoAlignment>center</logoAlignment>   
 <zIndex>90</zIndex>    
-<scrollSound>./art/sonidos/sound highlight_.wav</scrollSound>     
+     
 </carousel>
 
 <text name="systemInfo">

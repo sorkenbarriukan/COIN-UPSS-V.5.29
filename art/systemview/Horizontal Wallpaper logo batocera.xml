@@ -41,7 +41,6 @@
 <systemInfoDelay>700</systemInfoDelay>
 <pos>0 0.7837</pos>
 <size>1 0.2325</size>
-<scrollSound>./art/sonidos/sound systemsound.wav</scrollSound>
 </carousel>
 
 

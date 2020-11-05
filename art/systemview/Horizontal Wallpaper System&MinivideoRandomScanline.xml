@@ -93,7 +93,6 @@
 <pos>0 0.01002</pos>
 <size>1 0.2325</size>
 <maxLogoCount>5</maxLogoCount>
-<scrollSound>./art/sonidos/sound4.wav</scrollSound>
 </carousel>
     
 <text name="systemInfo">

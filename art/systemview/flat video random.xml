@@ -68,7 +68,6 @@
 <logoRotationOrigin>3.0 0.5</logoRotationOrigin>
 <logoAlignment>center</logoAlignment>   
 <zIndex>90</zIndex>  
-<scrollSound>./art/sonidos/sound systemsound.wav</scrollSound>    
 <zIndex>20</zIndex>   
 </carousel>
 

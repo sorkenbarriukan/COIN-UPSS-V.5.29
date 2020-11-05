@@ -97,7 +97,6 @@
       <logoScale>1.6 1</logoScale>
 				<logoSize>.25 .3</logoSize>
 				<maxLogoCount>5</maxLogoCount>
-<scrollSound>./art/sonidos/sound.wav</scrollSound>
 </carousel>
     
 <text name="systemInfo">
