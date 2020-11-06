@@ -1,23 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <theme>
 <formatVersion>7</formatVersion>
-
-
-
 <view name="system">
 <carousel name="systemcarousel">
 <scrollSound>./art/sonidos/mb_sc.wav</scrollSound>
 </carousel>
-</view>
-
-
-<view name="basic, detailed, grid">
-<imagegrid name="gamegrid">
-<scrollSound>./art/sonidos/mb_sc.wav</scrollSound>
-</imagegrid>
-
-<textlist name="gamelist">
-<scrollSound>./art/sonidos/mb_sc.wav</scrollSound>
-</textlist>
 </view>
 </theme>

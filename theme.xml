@@ -35,9 +35,9 @@ originally based on: "simple" by nils bonenberger
 <include name="glass effect">./art/shader/glass effect.xml</include>
 </subset>
 
-<!--sonidos en navegacion -->
+<!--sonidos de navegacion en system-->
 
-<subset name="Sounds Navigation" displayName="${subset.Sounds Navigation}">
+<subset name="Sounds Navigation System" displayName="${subset.Sounds Navigation System}">
 <include name="None" displayName="${none}"/>
 <include name="dkJump">./art/sistemas/sounds navigation/dkjump.xml</include>
 <include name="smwactivated">./art/sistemas/sounds navigation/smw activated.xml</include>
@@ -75,8 +75,47 @@ originally based on: "simple" by nils bonenberger
 <include name="smw_stomp">./art/sistemas/sounds navigation/smw_stomp.xml</include>
 <include name="systemsound">./art/sistemas/sounds navigation/systemsound.xml</include>
 </subset>
+<!--sonidos de navegacion para grid & gamelist -->
+<subset name="Sounds Navigation Grid" displayName="${subset.Sounds Navigation Grid}">
+<include name="None" displayName="${none}"/>
+<include name="dkJump">./art/sistemas/sounds navigation/dkjump.xml</include>
+<include name="smwactivated">./art/sistemas/sounds navigation/sndgrid/smw activated.xml</include>
+<include name="basic">./art/sistemas/sounds navigation/sndgrid/basic.xml</include>
+<include name="beep_4">./art/sistemas/sounds navigation/sndgrid/beep_4.xml</include>
+<include name="beep_5">./art/sistemas/sounds navigation/sndgrid/beep_5.xml</include>
+<include name="beep_9">./art/sistemas/sounds navigation/sndgrid/beep_9.xml</include>
+<include name="beep_11">./art/sistemas/sounds navigation/sndgrid/beep_11.xml</include>
+<include name="beep_12">./art/sistemas/sounds navigation/sndgrid/beep_12.xml</include>
+<include name="beep_13">./art/sistemas/sounds navigation/sndgrid/beep_13.xml</include>
+<include name="beep_19">./art/sistemas/sounds navigation/sndgrid/beep_19.xml</include>
+<include name="beep_20">./art/sistemas/sounds navigation/sndgrid/beep_20.xml</include>
+<include name="beep_21">./art/sistemas/sounds navigation/sndgrid/beep_21.xml</include>
+<include name="highlight">./art/sistemas/sounds navigation/sndgrid/highlight.xml</include>
+<include name="keyok2">./art/sistemas/sounds navigation/sndgrid/keyok2.xml</include>
+<include name="keyok3">./art/sistemas/sounds navigation/sndgrid/keyok3.xml</include>
+<include name="keyok5">./art/sistemas/sounds navigation/sndgrid/keyok5.xml</include>
+<include name="lm_coin">./art/sistemas/sounds navigation/sndgrid/lm_coin.xml</include>
+<include name="lm_ghost">./art/sistemas/sounds navigation/sndgrid/lm_ghost.xml</include>
+<include name="load">./art/sistemas/sounds navigation/sndgrid/load.xml</include>
+<include name="mb_jump">./art/sistemas/sounds navigation/sndgrid/mb_jump.xml</include>
+<include name="mb_sc">./art/sistemas/sounds navigation/sndgrid/mb_sc.xml</include>
+<include name="mb_touch">./art/sistemas/sounds navigation/sndgrid/mb_touch.xml</include>
+<include name="no_damage">./art/sistemas/sounds navigation/sndgrid/no_damage.xml</include>
+<include name="nsmb_pause">./art/sistemas/sounds navigation/sndgrid/nsmb_pause.xml</include>
+<include name="romulan_beep1">./art/sistemas/sounds navigation/sndgrid/romulan_beep1.xml</include>
+<include name="scroll">./art/sistemas/sounds navigation/sndgrid/scroll.xml</include>
+<include name="scroll2">./art/sistemas/sounds navigation/sndgrid/scroll2.xml</include>
+<include name="scroll3">./art/sistemas/sounds navigation/sndgrid/scroll3.xml</include>
+<include name="smb3_map_travel">./art/sistemas/sounds navigation/sndgrid/smb3_map_travel.xml</include>
+<include name="smw_1-up">./art/sistemas/sounds navigation/sndgrid/smw_1-up.xml</include>
+<include name="smw_coin">./art/sistemas/sounds navigation/sndgrid/smw_coin.xml</include>
+<include name="smw_fireball">./art/sistemas/sounds navigation/sndgrid/smw_fireball.xml</include>
+<include name="smw_kick">./art/sistemas/sounds navigation/sndgrid/smw_kick.xml</include>
+<include name="smw_stomp">./art/sistemas/sounds navigation/sndgrid/smw_stomp.xml</include>
+<include name="systemsound">./art/sistemas/sounds navigation/sndgrid/systemsound.xml</include>
+</subset>
 
-
+<!--system -->
 <view name="system">
 <image name="background" extra="true">
 <tile>true</tile>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<view name="basic, detailed, grid">
+<imagegrid name="gamegrid">
+<scrollSound>./art/sonidos/dk-a2600_jump.wav</scrollSound>
+</imagegrid>
+
+<textlist name="gamelist">
+<scrollSound>./art/sonidos/dk-a2600_jump.wav</scrollSound>
+</textlist>
+</view>
+</theme>
