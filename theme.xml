@@ -620,11 +620,11 @@ originally based on: "simple" by nils bonenberger
 <margin>0.005 0.040</margin>
 <padding>0.03 0.05 0.03 0.04</padding>
 <autoLayout>5 2</autoLayout>
-<imageSource>image</imageSource>
+<imageSource>thumbnail</imageSource>
 <autoLayoutSelectedZoom>1.12</autoLayoutSelectedZoom>
 <animateSelection>false</animateSelection>
 <folderImage>./art/fondos/deffolder.png</folderImage>
-<gameImage>./art/fondos/defgame.png</gameImage>
+<gameImage>./art/fondos/defgamegrid.png</gameImage>
 </imagegrid>
 
 <gridtile name="default">
@@ -729,11 +729,11 @@ originally based on: "simple" by nils bonenberger
 <margin>0.005 0.040</margin>
 <padding>0.03 0.05 0.03 0.04</padding>
 <autoLayout>5 2</autoLayout>
-<imageSource>image</imageSource>
+<imageSource>thumbnail</imageSource>
 <autoLayoutSelectedZoom>1.12</autoLayoutSelectedZoom>
 <animateSelection>false</animateSelection>
 <folderImage>./art/fondos/deffolder.png</folderImage>
-<gameImage>./art/fondos/defgame.png</gameImage>
+<gameImage>./art/fondos/defgamegrid.png</gameImage>
 </imagegrid>
 
 <gridtile name="default">
@@ -998,13 +998,13 @@ originally based on: "simple" by nils bonenberger
 <margin>0.005 0.040</margin>
 <padding>0.01 0.03 0.03 0.03</padding>
 <autoLayout>5 1</autoLayout>
-<imageSource>image</imageSource>
+<imageSource>thumbnail</imageSource>
 <autoLayoutSelectedZoom>1.10</autoLayoutSelectedZoom>
 <animateSelection>true</animateSelection>
 <alignment>center</alignment>
 <scrollLoop>true</scrollLoop>
 <folderImage>./art/fondos/deffolder.png</folderImage>
-<gameImage>./art/fondos/defgame.png</gameImage>
+<gameImage>./art/fondos/defgamegrid.png</gameImage>
 </imagegrid>
 
 <gridtile name="default">
@@ -1074,7 +1074,7 @@ originally based on: "simple" by nils bonenberger
 </customView>
    
 <!---------------------------marquee------------------------------------- -->
-<customView name="(1)-Marquee left" inherits="grid" displayName="${gridDetailsViewName}">
+<customView name="(1)-Logos left" inherits="grid" displayName="${gridDetailsViewName}">
 <image name="background">
 <tile>false</tile>
 <pos>0 0</pos>
@@ -1233,7 +1233,7 @@ originally based on: "simple" by nils bonenberger
 </rating>
 </customView>
 
-<customView name="(2)-Marquee left Scanline" inherits="grid" displayName="${gridDetailsViewName}">
+<customView name="(2)-Logos left Scanline" inherits="grid" displayName="${gridDetailsViewName}">
 <image name="background">
 <tile>false</tile>
 <pos>0 0</pos>
@@ -1387,7 +1387,7 @@ originally based on: "simple" by nils bonenberger
 </rating>
 </customView>
 
-<customView name="(1)-Marquee  Right Coin Upss Next BG Clean" inherits="grid" displayName="${gridDetailsViewName}">
+<customView name="(1)-Logos  Right Coin Upss Next BG Clean" inherits="grid" displayName="${gridDetailsViewName}">
 <image name="background">
 <tile>false</tile>
 <pos>0 0</pos>
@@ -1554,7 +1554,7 @@ originally based on: "simple" by nils bonenberger
 </rating>
 </customView> 
  
-<customView name="(2)-Marquee  Right Coin Upss Next BG Darck" inherits="grid" displayName="${gridDetailsViewName}">
+<customView name="(2)-Logos  Right Coin Upss Next BG Darck" inherits="grid" displayName="${gridDetailsViewName}">
 <image name="background">
 <tile>false</tile>
 <pos>0 0</pos>
@@ -1721,7 +1721,7 @@ originally based on: "simple" by nils bonenberger
 </rating>
 </customView> 
  
-<customView name="(1)-Marquee Big Cabin Scanline" inherits="grid" displayName="${gridDetailsViewName}">
+<customView name="(1)-Logos Big Cabin Scanline" inherits="grid" displayName="${gridDetailsViewName}">
 <image name="background">
 <tile>false</tile>
 <pos>0 0</pos>
@@ -1879,7 +1879,7 @@ originally based on: "simple" by nils bonenberger
 </rating>
 </customView>
 
-<customView name="(2)-Marquee Big Cabin" inherits="grid" displayName="${gridDetailsViewName}">
+<customView name="(2)-Logos Big Cabin" inherits="grid" displayName="${gridDetailsViewName}">
 <image name="background">
 <tile>false</tile>
 <pos>0 0</pos>
@@ -2037,7 +2037,7 @@ originally based on: "simple" by nils bonenberger
 </rating>
 </customView>
 
-<customView name="(3)-Marquee Big Cabin limpio" inherits="grid" displayName="${gridDetailsViewName}">
+<customView name="(3)-Logos Big Cabin limpio" inherits="grid" displayName="${gridDetailsViewName}">
 <image name="background">
 <tile>false</tile>
 <pos>0 0</pos>
@@ -2195,7 +2195,7 @@ originally based on: "simple" by nils bonenberger
 </rating>
 </customView>
 
-<customView name="(1)-Marquee Coin UPSS Wallpaper Scanline No Glass" inherits="grid" displayName="${gridDetailsViewName}">
+<customView name="(1)-Logos Coin UPSS Wallpaper Scanline No Glass" inherits="grid" displayName="${gridDetailsViewName}">
 <image name="background">
 <tile>false</tile>
 <pos>0 0</pos>
@@ -2353,7 +2353,7 @@ originally based on: "simple" by nils bonenberger
 </rating>
 </customView>
 
-<customView name="(2)-Marquee Coin UPSS Wallaper No Scanline No Glass" inherits="grid" displayName="${gridDetailsViewName}">
+<customView name="(2)-Logos Coin UPSS Wallaper No Scanline No Glass" inherits="grid" displayName="${gridDetailsViewName}">
 <image name="background">
 <tile>false</tile>
 <pos>0 0</pos>
@@ -2511,7 +2511,7 @@ originally based on: "simple" by nils bonenberger
 </rating>
 </customView>
  
-<customView name="(3)-Marquee Coin UPSS Image Game Scanline" inherits="grid" displayName="${gridDetailsViewName}">
+<customView name="(3)-Logos Coin UPSS Image Game Scanline" inherits="grid" displayName="${gridDetailsViewName}">
 <image name="background">
 <tile>false</tile>
 <pos>0 0</pos>
@@ -2660,7 +2660,7 @@ originally based on: "simple" by nils bonenberger
 </rating>
 </customView>
 
-<customView name="(4)-Marquee Coin UPSS Image Game No Scanline" inherits="grid" displayName="${gridDetailsViewName}">
+<customView name="(4)-Logos Coin UPSS Image Game No Scanline" inherits="grid" displayName="${gridDetailsViewName}">
 <image name="background">
 <tile>false</tile>
 <pos>0 0</pos>
@@ -2809,7 +2809,7 @@ originally based on: "simple" by nils bonenberger
 </rating>
 </customView>
 
-<customView name="(1)-Marquee Arcade grande carusel Scanline" inherits="grid" displayName="${gridDetailsViewName}">
+<customView name="(1)-Logos Arcade grande carusel Scanline" inherits="grid" displayName="${gridDetailsViewName}">
 <image name="background">
 <tile>false</tile>
 <pos>0 0</pos>
@@ -2969,7 +2969,7 @@ originally based on: "simple" by nils bonenberger
 </rating>
 </customView> 
  
-<customView name="(2)-Marquee Arcade grande carusel no Scanline" inherits="grid" displayName="${gridDetailsViewName}">
+<customView name="(2)-Logos Arcade grande carusel no Scanline" inherits="grid" displayName="${gridDetailsViewName}">
 <image name="background">
 <tile>false</tile>
 <pos>0 0</pos>
@@ -3138,7 +3138,7 @@ originally based on: "simple" by nils bonenberger
 </rating>
 </customView>
     
-<customView name="Marquee retro console cemfundog" inherits="grid" displayName="${gridDetailsViewName}">
+<customView name="Logos retro console cemfundog" inherits="grid" displayName="${gridDetailsViewName}">
 <image name="background">
 <tile>false</tile>
 <pos>0 0</pos>
@@ -3379,7 +3379,7 @@ originally based on: "simple" by nils bonenberger
 </text>
 </customView>
   
-<customView name="(1)-Marquee Coin UPSS Wallpaper Scanline vhs1" inherits="grid" displayName="${gridDetailsViewName}">
+<customView name="(1)-Logos Coin UPSS Wallpaper Scanline vhs1" inherits="grid" displayName="${gridDetailsViewName}">
 <image name="background">
 <tile>false</tile>
 <pos>0 0</pos>
@@ -3564,7 +3564,7 @@ originally based on: "simple" by nils bonenberger
 </rating>
 </customView>
 
- <customView name="(2)-Marquee Coin UPSS Wallpaper Scanline vhs2" inherits="grid" displayName="${gridDetailsViewName}">
+ <customView name="(2)-Logos Coin UPSS Wallpaper Scanline vhs2" inherits="grid" displayName="${gridDetailsViewName}">
 <image name="background">
 <tile>false</tile>
 <pos>0 0</pos>
@@ -3750,7 +3750,7 @@ originally based on: "simple" by nils bonenberger
 </rating>
 </customView>
  
-<customView name="(3)-Marquee Coin UPSS Wallpaper Scanline vhs3" inherits="grid" displayName="${gridDetailsViewName}">
+<customView name="(3)-Logos Coin UPSS Wallpaper Scanline vhs3" inherits="grid" displayName="${gridDetailsViewName}">
 <image name="background">
 <tile>false</tile>
 <pos>0 0</pos>
@@ -3950,7 +3950,7 @@ originally based on: "simple" by nils bonenberger
 </rating>
 </customView>
 
- <customView name="(4)-Marquee Coin UPSS Wallpaper Scanline vhs4" inherits="grid" displayName="${gridDetailsViewName}">
+ <customView name="(4)-Logos Coin UPSS Wallpaper Scanline vhs4" inherits="grid" displayName="${gridDetailsViewName}">
 <image name="background">
 <tile>false</tile>
 <pos>0 0</pos>
@@ -4150,7 +4150,7 @@ originally based on: "simple" by nils bonenberger
 </rating>
 </customView>
 
-<customView name="Marquee  flat" inherits="grid" displayName="${gridDetailsViewName}">
+<customView name="Logos  flat" inherits="grid" displayName="${gridDetailsViewName}">
 <image name="background">
 <tile>false</tile>
 <pos>0 0</pos>
@@ -4467,7 +4467,7 @@ originally based on: "simple" by nils bonenberger
 </rating>
 </customView>
 
-<customView name="(1)-Marquee Coin UPSS Cabin yellow" inherits="grid" displayName="${gridDetailsViewName}">
+<customView name="(1)-Logos Coin UPSS Cabin yellow" inherits="grid" displayName="${gridDetailsViewName}">
 <image name="background">
 <tile>false</tile>
 <pos>0 0</pos>
@@ -4638,7 +4638,7 @@ originally based on: "simple" by nils bonenberger
 </rating>
 </customView>
 
-<customView name="(2)-Marquee Coin UPSS Cabin  Darck " inherits="grid" displayName="${gridDetailsViewName}">
+<customView name="(2)-Logos Coin UPSS Cabin  Darck " inherits="grid" displayName="${gridDetailsViewName}">
 <image name="background">
 <tile>false</tile>
 <pos>0 0</pos>
@@ -4821,7 +4821,7 @@ originally based on: "simple" by nils bonenberger
 </rating>
 </customView>
 
-<customView name="(1)-Marquee Ruleta Left" inherits="grid" displayName="${gridDetailsViewName}">
+<customView name="(1)-Logos Ruleta Left" inherits="grid" displayName="${gridDetailsViewName}">
 <image name="background" extra="true">
 <tile>false</tile>
 <size>1 1</size>
@@ -5003,7 +5003,7 @@ originally based on: "simple" by nils bonenberger
 </rating>
 </customView>
 
-<customView name="(2)-Marquee Ruleta Right" inherits="grid" displayName="${gridDetailsViewName}">
+<customView name="(2)-Logos Ruleta Right" inherits="grid" displayName="${gridDetailsViewName}">
 <image name="background" extra="true">
 <tile>false</tile>
 <size>1 1</size>
@@ -5185,7 +5185,7 @@ originally based on: "simple" by nils bonenberger
 </rating>
 </customView>
 
-<customView name="Marquee Gamer Ruleta Right" inherits="grid" displayName="${gridDetailsViewName}">
+<customView name="Logos Gamer Ruleta Right" inherits="grid" displayName="${gridDetailsViewName}">
 <image name="background" extra="true">
 <tile>false</tile>
 <size>1 1</size>
@@ -5510,7 +5510,7 @@ originally based on: "simple" by nils bonenberger
 </image>
 </customView>
 
-<customView name="Marquee multicolored Ruleta Right" inherits="grid" displayName="${gridDetailsViewName}">
+<customView name="Logos multicolored Ruleta Right" inherits="grid" displayName="${gridDetailsViewName}">
 <image name="background" extra="true">
 <tile>false</tile>
 <size>1 1</size>
@@ -6053,7 +6053,7 @@ originally based on: "simple" by nils bonenberger
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
 <folderImage>./art/fondos/deffolder.png</folderImage>
-<gameImage>./art/fondos/defgame.png</gameImage>
+<gameImage>./art/fondos/defgamegrid.png</gameImage>
 <zIndex>90</zIndex>
 <storyboard> 
 <animation property="x" from="1.01" begin="0" duration="1850" mode="easeOut"/>
@@ -6215,7 +6215,7 @@ originally based on: "simple" by nils bonenberger
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
 <folderImage>./art/fondos/deffolder.png</folderImage>
-<gameImage>./art/fondos/defgame.png</gameImage>
+<gameImage>./art/fondos/defgamegrid.png</gameImage>
 <zIndex>90</zIndex>
 <storyboard> 
 <animation property="x" from="1.01" begin="0" duration="1850" mode="easeOut"/>
@@ -6393,7 +6393,7 @@ originally based on: "simple" by nils bonenberger
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
 <folderImage>./art/fondos/deffolder.png</folderImage>
-<gameImage>./art/fondos/defgame.png</gameImage>
+<gameImage>./art/fondos/defgamegrid.png</gameImage>
 <zIndex>90</zIndex>
 <storyboard>  
         <animation property="x" from="0" begin="0" duration="1250" mode="easeOut"/>  
