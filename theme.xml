@@ -184,7 +184,7 @@ Retrobat:Lorenzolamas & kaylh
 <include name="(3)-Wall,video random retro console cemfundog view 3">./art/systemview/retroconsol 3.xml</include>
 <include name="(1)-Video random retro console cemfundog view 2">./art/systemview/retroconsol video 2.xml</include>
 <include name="(2)-Video random retro console cemfundog view 1">./art/systemview/retroconsol video 1.xml</include>
-<include name="pantalla ovalda">./art/systemview/pantalla ovalda.xml</include>
+<include name="Another">./art/systemview/pantalla ovalda.xml</include>
 </subset>
 
 
@@ -6014,6 +6014,262 @@ Retrobat:Lorenzolamas & kaylh
 <storyboard>
 <animation property="color" from="1800" begin="0" duration="1950" mode="EaseOutQuint"/>
 <animation property="w" from="0.001"  to="0.250" duration="1950" mode="EaseOutQuint"/>
+</storyboard>
+</image>
+
+ <rating name="md_rating">
+ <visible>false</visible>
+<pos>0.06 0.800</pos>
+<size>0.05 0.03</size>
+<color>FFFFFF</color>
+<unfilledColor>808080</unfilledColor>
+</rating>
+</customView>
+
+<customView name="Another" inherits="grid" displayName="${gridDetailsViewName}">
+<image name="background" extra="true">
+<tile>false</tile>
+<color>FFFFFF90</color>   
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./art/fondos/pabtalla ovalada efecto.png</path>
+<zIndex>20</zIndex>
+</image>
+  
+<image name="background3" extra="true">
+<tile>false</tile>
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./art/sistemas/wall/default.png</path>
+<path>./art/sistemas/wall/${system.theme}.png</path>
+<zIndex>10</zIndex>
+</image>
+    
+<image name="fondotv" extra="true">
+<tile>false</tile>
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./art/fondos/pabtalla ovalada.png</path>
+<zIndex>30</zIndex>
+</image>
+
+<imagegrid name="gamegrid">
+<pos>0.700 -0.09</pos>
+<size>0.30 0.983</size>
+<padding>0.04 .50 0.07 0.30</padding>
+<scrollDirection>vertical</scrollDirection>
+<autoLayout>1 1</autoLayout>
+<imageSource>marquee</imageSource>
+<autoLayoutSelectedZoom>1.46</autoLayoutSelectedZoom>
+<margin>0.005 0.02</margin>
+<centerSelection>true</centerSelection>
+<scrollLoop>true</scrollLoop>
+<alignment>left</alignment>
+<folderImage>./art/fondos/deffolder.png</folderImage>
+<gameImage>./art/fondos/defgame.png</gameImage>
+<zIndex>90</zIndex>
+<storyboard>       
+       <animation property="w" from="-0" begin="0" duration="2250" mode="easeOut"/>    
+</storyboard>
+</imagegrid>
+
+ <image name="gridtile.favorite">
+<path>./art/gridfav.png</path>
+<pos>0.75 0</pos>
+<maxSize>0.25 0.25</maxSize>
+<origin>0 0</origin>
+<color>A0A0A0A0</color>
+</image>  
+    
+<gridtile name="default">
+<padding>50 16</padding>
+<backgroundCenterColor>FFFFFF00</backgroundCenterColor>
+<backgroundEdgeColor>FFFFFF00</backgroundEdgeColor>
+<imageSizeMode>maxSize</imageSizeMode>
+<imageColor>FFFFFF</imageColor>
+<reflexion>0.00 0.0</reflexion>
+</gridtile>
+
+<gridtile name="selected">
+<backgroundCenterColor>00000000</backgroundCenterColor>
+<backgroundEdgeColor>00000000</backgroundEdgeColor>
+<padding>55 13</padding>
+<imageColor>FFFFFF</imageColor>
+</gridtile>
+
+<text name="gridtile">
+<color>1C00ff00</color>
+<backgroundColor>00000000</backgroundColor>
+<fontSize>0.022</fontSize>
+<alignment>center</alignment>
+<size>1 0.24</size>
+</text>
+<text name="gridtile_selected">
+<color>1C00ff00</color>
+<glowColor>${glowColor}</glowColor>
+<glowSize>0</glowSize>
+</text>
+
+<text name="md_name">
+<visible>false</visible>
+<color>ffffff</color>
+<pos>0.26 0.790</pos>
+<size>0.30 0.05</size>
+<fontSize>0.042</fontSize>
+<fontPath>./art/fuentes/Bebas Neue.ttf</fontPath>
+<alignment>left</alignment>
+<glowColor>00000060</glowColor>
+<glowSize>2</glowSize>
+</text>
+
+<image name="personaje" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>FFFFFFFF</color>
+<origin>0 0</origin>
+<pos>0.480 0.2560</pos>
+<size>0.2095 0.7055</size>
+<glowColor>000000</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>62</zIndex>
+<storyboard>
+<animation property="x" from="1.01" begin="0" duration="2250" mode="easeOut"/>   
+<animation property="x" from="0.480" to="0.473" duration="40" autoreverse="true" begin="4000" repeat="3"/>  
+<animation property="x" from="0.480" to="0.473" duration="40" autoreverse="true" begin="7000" repeat="3"/> 
+<animation property="x" from="0.480" to="0.473" duration="40" autoreverse="true" begin="10000" repeat="3"/> 
+<animation property="x" from="0.480" to="0.473" duration="40" autoreverse="true" begin="13000" repeat="3"/> 
+<animation property="x" from="0.480" to="0.473" duration="40" autoreverse="true" begin="16000" repeat="3"/> 
+<animation property="x" from="0.480" to="0.473" duration="40" autoreverse="true" begin="19000" repeat="3"/> 
+<animation property="x" from="0.480" to="0.473" duration="40" autoreverse="true" begin="22000" repeat="3"/> 
+<animation property="x" from="0.480" to="0.473" duration="40" autoreverse="true" begin="25000" repeat="3"/> 
+<animation property="x" from="0.480" to="0.473" duration="40" autoreverse="true" begin="28000" repeat="3"/>
+<animation property="x" from="0.480" to="0.473" duration="40" autoreverse="true" begin="31000" repeat="3"/>
+<animation property="x" from="0.480" to="0.473" duration="40" autoreverse="true" begin="34000" repeat="3"/>
+<animation property="x" from="0.480" to="0.473" duration="40" autoreverse="true" begin="37000" repeat="3"/>
+</storyboard>
+</image>
+
+<image name="personaje2" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>2EFE2E</color>
+<origin>0 0</origin>
+<pos>0.480 0.2560</pos>
+<size>0.2095 0.7055</size>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>60</zIndex>
+<storyboard>
+<animation property="x" from="1.01" begin="0" duration="2250" mode="easeOut"/> 
+<animation property="x" from="1.01" begin="0" duration="2250" mode="easeOut"/>    
+<animation property="x" from="0.480" to="0.474" duration="40" autoreverse="true" begin="4190" repeat="3"/>    
+<animation property="x" from="0.480" to="0.474" duration="40" autoreverse="true" begin="7190" repeat="3"/>  
+<animation property="x" from="0.480" to="0.474" duration="40" autoreverse="true" begin="10190" repeat="3"/>
+<animation property="x" from="0.480" to="0.474" duration="40" autoreverse="true" begin="13190" repeat="3"/>
+<animation property="x" from="0.480" to="0.474" duration="40" autoreverse="true" begin="16190" repeat="3"/>
+<animation property="x" from="0.480" to="0.474" duration="40" autoreverse="true" begin="19190" repeat="3"/>
+<animation property="x" from="0.480" to="0.474" duration="40" autoreverse="true" begin="22190" repeat="3"/>
+<animation property="x" from="0.480" to="0.474" duration="40" autoreverse="true" begin="25190" repeat="3"/>
+<animation property="x" from="0.480" to="0.474" duration="40" autoreverse="true" begin="28190" repeat="3"/>
+<animation property="x" from="0.480" to="0.474" duration="40" autoreverse="true" begin="31190" repeat="3"/>
+<animation property="x" from="0.480" to="0.474" duration="40" autoreverse="true" begin="34190" repeat="3"/>
+<animation property="x" from="0.480" to="0.474" duration="40" autoreverse="true" begin="37190" repeat="3"/>
+</storyboard>
+</image>
+
+<image name="personaje3" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>FE2EF7</color>
+<origin>0 0</origin>
+<pos>0.480 0.2560</pos>
+<size>0.2095 0.7055</size>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>61</zIndex>
+<storyboard>
+<animation property="x" from="1.01" begin="0" duration="2250" mode="easeOut"/> 
+<animation property="x" from="1.01" begin="0" duration="2250" mode="easeOut"/>         
+</storyboard>
+</image>
+
+<image name="md_image">
+<visible>true</visible>
+<pos>0.2930 0.454</pos>
+<origin>0.5 0.5</origin>
+<size>0.5335 0.493</size>
+<roundCorners>0.04.7</roundCorners>
+<zIndex>19</zIndex>
+</image>
+
+<image name="predeterminado" extra="true">
+<tile>false</tile>
+<Delay>800</Delay>
+<pos>0.2930 0.454</pos>
+<origin>0.5 0.5</origin>
+<size>0.5335 0.493</size>
+<path>./art/fondos/default.png</path>
+<zIndex>19</zIndex>
+<storyboard>
+        <animation property="y" from="0.05" begin="0" duration="350" mode="easeOut"/>
+        <animation property="opacity" from="0" to="1" duration="2950" mode="easeIn"/>
+        <animation property="scale" from="0" to="1" duration="350" mode="easeOut"/>
+      </storyboard>
+</image>
+
+<video name="md_video">
+<pos>0.2930 0.454</pos>
+<origin>0.5 0.5</origin>
+<size>0.5335 0.493</size>
+<delay>0</delay>
+<showSnapshotNoVideo>false</showSnapshotNoVideo>
+<showSnapshotDelay>false</showSnapshotDelay>
+<roundCorners>0</roundCorners>
+<zIndex>54</zIndex>
+<storyboard>
+<animation property="w" from="0.0010" to="0.5335" begin="0" duration="1250" autoreverse="false" mode="easeOut"/>   
+</storyboard>
+</video>
+
+<image name="md_thumbnail">
+<visible>false</visible>
+<pos>0.290 0.170</pos>
+<size>0.400 0.145</size>
+<origin>0.5 1</origin>
+<zIndex>90</zIndex>
+</image>	
+
+<helpsystem name="help">
+<visible>false</visible>
+<textColor>000000</textColor>
+<iconColor>000000</iconColor>
+<fontSize>0.020</fontSize>
+<pos>0.9995 0.9992</pos>
+</helpsystem>
+
+<text name="logoText">
+<pos>0.219 0.237</pos>
+<size>0.339 0.132</size>
+<origin>0.5 0.5</origin>
+<alignment>center</alignment>
+<fontSize>0.08</fontSize>
+<fontPath>./art/fuentes/Bebas Neue.ttf</fontPath>
+<color>${baseColor}</color>
+</text>
+<image name="logo">
+<path>./art/sistemas/silverring/default.png</path>
+<path>./art/sistemas/silverring/${system.theme}.png</path>
+<pos>0.145 0.850</pos>
+<size>0.150 0.120</size>
+<origin>0.5 0.5</origin>
+<storyboard>       
+       <animation property="w" from="-0" begin="0" duration="2250" mode="easeOut"/>    
 </storyboard>
 </image>
 

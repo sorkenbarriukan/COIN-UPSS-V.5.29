@@ -61,8 +61,10 @@
 <showSnapshotDelay>false</showSnapshotDelay>
 <color>FFFFFF</color>   
 <zIndex>54</zIndex>
+<storyboard>
+<animation property="w" from="0.0010" to="0.5335" begin="0" duration="1250" autoreverse="false" mode="easeOut"/>   
+</storyboard>
 </video>
-
 
 <image name="personaje" extra="true">
 <path>./art/sistemas/character/default.png</path>
