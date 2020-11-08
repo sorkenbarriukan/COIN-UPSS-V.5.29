@@ -12,14 +12,17 @@
 <zIndex>10</zIndex>
 </image>
     
-<image name="background2" extra="true">
+<image name="pointer" extra="true">
 <tile>false</tile>
 <pos>0.963 0.50</pos>
 <origin>0.5 0.5</origin>
 <size>0.075 0.175</size>
 <path>./art/sistemas/pointer/default.png</path>
 <path>./art/sistemas/pointer/${system.theme}.png</path>
-<zIndex>90</zIndex>
+<zIndex>90</zIndex> 
+<storyboard repeat="forever">
+<animation property="x" from="0.963" to="0.940" duration="60" autoreverse="true" begin="4000" repeat="3"/>
+</storyboard>
 </image>
      
 <image name="predeterminado" extra="true">

@@ -1,13 +1,4 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<!--
-Theme: COIN-UPSS V.5.29 Full
-ES: Fabrice CARUSO
-Retrobat: Lorenzo lamas & kaylh
-Batocera: Linux: nadenis lamarre
-RetroArch: The Libretro Team
-originally based on: "Carbon" by Eric Hettervik (Rookervik)
-originally based on: "simple" by nils bonenberger
--->
 
 <theme defaultView="Arcade grande carusel No Scanline wheel">
 <formatVersion>7</formatVersion>
@@ -1073,7 +1064,7 @@ originally based on: "simple" by nils bonenberger
 </rating>
 </customView>
    
-<!---------------------------marquee------------------------------------- -->
+<!---------------------------Logos------------------------------------- -->
 <customView name="(1)-Logos left" inherits="grid" displayName="${gridDetailsViewName}">
 <image name="background">
 <tile>false</tile>
@@ -1097,7 +1088,7 @@ originally based on: "simple" by nils bonenberger
 
 
 <imagegrid name="gamegrid">
-<pos>0.04 -0.01</pos>
+<pos>0.04 -0.09</pos>
 <size>0.30 0.983</size>
 <padding>0.04 .50 0.07 0.30</padding>
 <scrollDirection>vertical</scrollDirection>
@@ -1254,8 +1245,8 @@ originally based on: "simple" by nils bonenberger
 </image>
 
 <imagegrid name="gamegrid">
-<pos>0.01 -0.01</pos>
-<size>0.37 0.999</size>
+<pos>0.04 -0.09</pos>
+<size>0.30 0.983</size>
 <padding>0.04 .50 0.07 0.30</padding>
 <scrollDirection>vertical</scrollDirection>
 <autoLayout>1 1</autoLayout>
@@ -1397,7 +1388,7 @@ originally based on: "simple" by nils bonenberger
 <zIndex>70</zIndex>
 </image>
     
-    <image name="puntero" extra="true">
+<image name="puntero" extra="true">
 <tile>false</tile>
 <pos>0.963 0.47</pos>
 <origin>0.5 0.5</origin>
@@ -1405,8 +1396,8 @@ originally based on: "simple" by nils bonenberger
 <path>./art/sistemas/pointer/default.png</path>
 <path>./art/sistemas/pointer/${system.theme}.png</path>
 <zIndex>90</zIndex>
-<storyboard>       
-    <animation property="x" from="1.0" begin="0" duration="1250" mode="easeOut"/>  
+<storyboard repeat="forever">
+<animation property="x" from="0.963" to="0.940" duration="60" autoreverse="true" begin="4000" repeat="3"/>
 </storyboard>
 </image>
 
@@ -1572,8 +1563,8 @@ originally based on: "simple" by nils bonenberger
 <path>./art/sistemas/pointer/default.png</path>
 <path>./art/sistemas/pointer/${system.theme}.png</path>
 <zIndex>90</zIndex>
-<storyboard>       
-    <animation property="x" from="1.0" begin="0" duration="1250" mode="easeOut"/>  
+<storyboard repeat="forever">
+<animation property="x" from="0.963" to="0.940" duration="60" autoreverse="true" begin="4000" repeat="3"/>
 </storyboard>
 </image>
 
@@ -2827,8 +2818,8 @@ originally based on: "simple" by nils bonenberger
 <path>./art/sistemas/pointer/default.png</path>
 <path>./art/sistemas/pointer/${system.theme}.png</path>
 <zIndex>90</zIndex>
-<storyboard>  
-        <animation property="x" from="0" begin="0" duration="1250" mode="easeOut"/>  
+<storyboard repeat="forever">
+<animation property="x" from="0.963" to="0.940" duration="60" autoreverse="true" begin="4000" repeat="3"/>
 </storyboard>
 </image>
 
@@ -2987,8 +2978,8 @@ originally based on: "simple" by nils bonenberger
 <path>./art/sistemas/pointer/default.png</path>
 <path>./art/sistemas/pointer/${system.theme}.png</path>
 <zIndex>90</zIndex>
-<storyboard>  
-        <animation property="x" from="1.0" begin="0" duration="1250" mode="easeOut"/> 
+<storyboard repeat="forever">
+<animation property="x" from="0.963" to="0.940" duration="60" autoreverse="true" begin="4000" repeat="3"/>
 </storyboard>
 </image>
 
@@ -3982,8 +3973,8 @@ originally based on: "simple" by nils bonenberger
 <autoLayout>1 1</autoLayout>
 <imageSource>marquee</imageSource>
 <autoLayoutSelectedZoom>1.46</autoLayoutSelectedZoom>
-<margin>0.005 0.02</margin>
-<centerSelection>false</centerSelection>
+<margin>0 0.025</margin>
+<centerSelection>true</centerSelection>
 <scrollLoop>true</scrollLoop>
 <alignment>left</alignment>
 <folderImage>./art/fondos/deffolder.png</folderImage>
