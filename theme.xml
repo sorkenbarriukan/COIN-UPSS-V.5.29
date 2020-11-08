@@ -2,7 +2,12 @@
 
 <theme defaultView="Arcade grande carusel No Scanline wheel">
 <formatVersion>7</formatVersion>
- 
+  <!--
+Theme: COIN-UPSS V.Batocera
+ES: Fabrice CARUSO
+Batocera:nadenislamarre
+Retrobat:Lorenzolamas & kaylh
+-->
   <!--color en efectos y texto -->
   <subset name="colorset" displayName="${subset.colorset}">
    <include name="Red" displayName="${red}">./art/colors/red.xml</include>
