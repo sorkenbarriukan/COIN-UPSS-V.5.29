@@ -2,12 +2,14 @@
 
 <theme defaultView="Arcade grande carusel No Scanline wheel">
 <formatVersion>7</formatVersion>
-  <!--
+ 
+ <!--
 Theme: COIN-UPSS V.Batocera
 ES: Fabrice CARUSO
 Batocera:nadenislamarre
 Retrobat:Lorenzolamas & kaylh
 -->
+
   <!--color en efectos y texto -->
   <subset name="colorset" displayName="${subset.colorset}">
    <include name="Red" displayName="${red}">./art/colors/red.xml</include>
@@ -182,6 +184,7 @@ Retrobat:Lorenzolamas & kaylh
 <include name="(3)-Wall,video random retro console cemfundog view 3">./art/systemview/retroconsol 3.xml</include>
 <include name="(1)-Video random retro console cemfundog view 2">./art/systemview/retroconsol video 2.xml</include>
 <include name="(2)-Video random retro console cemfundog view 1">./art/systemview/retroconsol video 1.xml</include>
+<include name="pantalla ovalda">./art/systemview/pantalla ovalda.xml</include>
 </subset>
 
 
