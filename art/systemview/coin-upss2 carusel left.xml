@@ -34,6 +34,45 @@
 </image>
 
  
+<image name="personaje" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>FFFFFFFF</color>
+<origin>0 0</origin>
+<pos>0.680 0.2900</pos>
+<size>0.2095 0.7055</size>
+<glowColor>000000</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>62</zIndex>
+</image>
+
+<image name="personaje2" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>2EFE2E</color>
+<origin>0 0</origin>
+<pos>0.680 0.2900</pos>
+<size>0.2095 0.7055</size>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>60</zIndex>
+</image>
+
+<image name="personaje3" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>FE2EF7</color>
+<origin>0 0</origin>
+<pos>0.680 0.2900</pos>
+<size>0.2095 0.7055</size>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>61</zIndex>
+</image>
+
 <helpsystem name="help">
 <visible>false</visible>
 <textColor>000000</textColor>
@@ -63,7 +102,7 @@
 <fontSize>0.05</fontSize>
 <fontPath>./art/fuentes/Anticlimax.ttf</fontPath>
 <backgroundColor>00000000</backgroundColor>
-<color>${baseColor}</color>
+<color>000000</color>
 <glowColor>ffffff</glowColor>
 <glowSize>2</glowSize>
 <reflexion>0</reflexion>

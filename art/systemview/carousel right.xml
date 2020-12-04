@@ -8,10 +8,29 @@
 <size>1 1</size>
 <pos>0 0</pos>
 <origin>0 0</origin>
-<path>./art/fondos/systemcarousel.png</path>
+<path>./art/fondos/fondo hypS.png</path>
 <zIndex>10</zIndex>
 </image>
-    
+
+<image name="background3" extra="true">
+<tile>false</tile>
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./art/sistemas/wall/default.png</path>
+<path>./art/sistemas/wall/${system.theme}.png</path>
+<zIndex>9</zIndex>
+</image>
+ 
+ <image name="fondotv" extra="true">
+<tile>false</tile>
+<pos>0.3086 0.513</pos>
+<origin>0.5 0.5</origin>
+<size>0.4930 0.535</size>
+<path>./art/fondos/marco video hyp.png</path>
+<zIndex>25</zIndex>
+</image>
+   
 <image name="pointer" extra="true">
 <tile>false</tile>
 <pos>0.963 0.50</pos>
@@ -57,6 +76,20 @@
 <zIndex>30</zIndex>
 </video>
 
+<image name="consola" extra="true">
+<path>./art/sistemas/consoles/default.png</path>
+<path>./art/sistemas/consoles/${system.theme}.png</path>
+<color>FFFFFFFF</color>
+<origin>0 0</origin>
+<pos>0.1150 0.7430</pos>
+<maxSize>0.14 0.14</maxSize>
+<reflexion>0.30 0.0</reflexion>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="4000" repeat="3"/>
+</storyboard>  
+<zIndex>90</zIndex>
+</image>
+
 <image name="personaje" extra="true">
 <path>./art/sistemas/character/default.png</path>
 <path>./art/sistemas/character/${system.theme}.png</path>
@@ -97,7 +130,7 @@
 <fontSize>0.03</fontSize>
 <fontPath>./art/fuentes/Bebas Neue.ttf</fontPath>
 <backgroundColor>00000000</backgroundColor>
-<color>FFFFFF</color>
+<color>ffffff</color>
 <glowColor>050505</glowColor>
 <glowSize>2</glowSize>
 <reflexion>0.60 0.0</reflexion>

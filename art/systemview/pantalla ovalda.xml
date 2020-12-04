@@ -22,7 +22,7 @@
 <zIndex>10</zIndex>
 </image>
     
-<image name="fondotv" extra="true">
+<image name="fondotv0" extra="true">
 <tile>false</tile>
 <size>1 1</size>
 <pos>0 0</pos>
@@ -61,84 +61,7 @@
 <showSnapshotDelay>false</showSnapshotDelay>
 <color>FFFFFF</color>   
 <zIndex>54</zIndex>
-<storyboard>
-<animation property="w" from="0.0010" to="0.5335" begin="0" duration="1250" autoreverse="false" mode="easeOut"/>   
-</storyboard>
 </video>
-
-<image name="personaje" extra="true">
-<path>./art/sistemas/character/default.png</path>
-<path>./art/sistemas/character/${system.theme}.png</path>
-<color>FFFFFFFF</color>
-<origin>0 0</origin>
-<pos>0.480 0.2560</pos>
-<size>0.2095 0.7055</size>
-<glowColor>000000</glowColor>
-<glowSize>2</glowSize>
-<reflexion>0.50 0.0</reflexion>
-<zIndex>62</zIndex>
-<storyboard>
-<animation property="x" from="1.01" begin="0" duration="2250" mode="easeOut"/>   
-<animation property="x" from="0.480" to="0.473" duration="40" autoreverse="true" begin="4000" repeat="3"/>  
-<animation property="x" from="0.480" to="0.473" duration="40" autoreverse="true" begin="7000" repeat="3"/> 
-<animation property="x" from="0.480" to="0.473" duration="40" autoreverse="true" begin="10000" repeat="3"/> 
-<animation property="x" from="0.480" to="0.473" duration="40" autoreverse="true" begin="13000" repeat="3"/> 
-<animation property="x" from="0.480" to="0.473" duration="40" autoreverse="true" begin="16000" repeat="3"/> 
-<animation property="x" from="0.480" to="0.473" duration="40" autoreverse="true" begin="19000" repeat="3"/> 
-<animation property="x" from="0.480" to="0.473" duration="40" autoreverse="true" begin="22000" repeat="3"/> 
-<animation property="x" from="0.480" to="0.473" duration="40" autoreverse="true" begin="25000" repeat="3"/> 
-<animation property="x" from="0.480" to="0.473" duration="40" autoreverse="true" begin="28000" repeat="3"/>
-<animation property="x" from="0.480" to="0.473" duration="40" autoreverse="true" begin="31000" repeat="3"/>
-<animation property="x" from="0.480" to="0.473" duration="40" autoreverse="true" begin="34000" repeat="3"/>
-<animation property="x" from="0.480" to="0.473" duration="40" autoreverse="true" begin="37000" repeat="3"/>
-</storyboard>
-</image>
-
-<image name="personaje2" extra="true">
-<path>./art/sistemas/character/default.png</path>
-<path>./art/sistemas/character/${system.theme}.png</path>
-<color>2EFE2E</color>
-<origin>0 0</origin>
-<pos>0.480 0.2560</pos>
-<size>0.2095 0.7055</size>
-<glowColor>ffffff60</glowColor>
-<glowSize>2</glowSize>
-<reflexion>0.50 0.0</reflexion>
-<zIndex>60</zIndex>
-<storyboard>
-<animation property="x" from="1.01" begin="0" duration="2250" mode="easeOut"/> 
-<animation property="x" from="1.01" begin="0" duration="2250" mode="easeOut"/>    
-<animation property="x" from="0.480" to="0.474" duration="40" autoreverse="true" begin="4190" repeat="3"/>    
-<animation property="x" from="0.480" to="0.474" duration="40" autoreverse="true" begin="7190" repeat="3"/>  
-<animation property="x" from="0.480" to="0.474" duration="40" autoreverse="true" begin="10190" repeat="3"/>
-<animation property="x" from="0.480" to="0.474" duration="40" autoreverse="true" begin="13190" repeat="3"/>
-<animation property="x" from="0.480" to="0.474" duration="40" autoreverse="true" begin="16190" repeat="3"/>
-<animation property="x" from="0.480" to="0.474" duration="40" autoreverse="true" begin="19190" repeat="3"/>
-<animation property="x" from="0.480" to="0.474" duration="40" autoreverse="true" begin="22190" repeat="3"/>
-<animation property="x" from="0.480" to="0.474" duration="40" autoreverse="true" begin="25190" repeat="3"/>
-<animation property="x" from="0.480" to="0.474" duration="40" autoreverse="true" begin="28190" repeat="3"/>
-<animation property="x" from="0.480" to="0.474" duration="40" autoreverse="true" begin="31190" repeat="3"/>
-<animation property="x" from="0.480" to="0.474" duration="40" autoreverse="true" begin="34190" repeat="3"/>
-<animation property="x" from="0.480" to="0.474" duration="40" autoreverse="true" begin="37190" repeat="3"/>
-</storyboard>
-</image>
-
-<image name="personaje3" extra="true">
-<path>./art/sistemas/character/default.png</path>
-<path>./art/sistemas/character/${system.theme}.png</path>
-<color>FE2EF7</color>
-<origin>0 0</origin>
-<pos>0.480 0.2560</pos>
-<size>0.2095 0.7055</size>
-<glowColor>ffffff60</glowColor>
-<glowSize>2</glowSize>
-<reflexion>0.50 0.0</reflexion>
-<zIndex>61</zIndex>
-<storyboard>
-<animation property="x" from="1.01" begin="0" duration="2250" mode="easeOut"/> 
-<animation property="x" from="1.01" begin="0" duration="2250" mode="easeOut"/>         
-</storyboard>
-</image>
 
 <carousel name="systemcarousel">
 <linearSmooth>true</linearSmooth>
@@ -155,6 +78,45 @@
 <logoAlignment>center</logoAlignment>   
 <zIndex>90</zIndex>    
 </carousel>
+
+<image name="personaje" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>FFFFFFFF</color>
+<origin>0 0</origin>
+<pos>0.480 0.2900</pos>
+<size>0.2095 0.7055</size>
+<glowColor>000000</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>62</zIndex>
+</image>
+
+<image name="personaje2" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>2EFE2E</color>
+<origin>0 0</origin>
+<pos>0.480 0.2900</pos>
+<size>0.2095 0.7055</size>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>60</zIndex>
+</image>
+
+<image name="personaje3" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>FE2EF7</color>
+<origin>0 0</origin>
+<pos>0.480 0.2900</pos>
+<size>0.2095 0.7055</size>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>61</zIndex>
+</image>
 
 <text name="systemInfo">
 <systemInfoDelay>300</systemInfoDelay>

@@ -7,8 +7,17 @@
 <size>1 1</size>
 <pos>0 0</pos>
 <origin>0 0</origin>
-<path>./art/fondos/ruleta left limpio.png</path>
+<path>./art/fondos/fondo ruleta.png</path>
 <zIndex>30</zIndex>
+</image>
+
+<image name="fondovideo" extra="true">
+<tile>false</tile>
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./art/fondos/ruleta left limpio.png</path>
+<zIndex>22</zIndex>
 </image>
   
 <image name="background3" extra="true">
@@ -53,20 +62,6 @@
 <zIndex>20</zIndex>
 </video>
 
-<image name="personaje" extra="true">
-<path>./art/sistemas/character/default.png</path>
-<path>./art/sistemas/character/${system.theme}.png</path>
-<color>FFFFFFFF</color>
-<origin>0 0</origin>
-<pos>0.2250 0.2567</pos>
-<size>0.2595 0.7455</size>
-<storyboard>  
-<animation property="scale" from="0" to="1" duration="800" mode="easeOutCubic"/>      
-       <animation property="rotation" from="0" to="6" duration="700" repeat="forever"/>       
-</storyboard>   
-<zIndex>90</zIndex>
-</image>
-
 <video name="backgroundvideo" extra="true" ifHelpPrompts="false">
 <pos>0.5 0.5</pos>
 <minSize>1 1</minSize>
@@ -85,7 +80,7 @@
         <type>vertical_wheel</type>
         <pos>-0.390 0</pos>
         <size>1 1</size>
-        <logoScale>1.80</logoScale>
+        <logoScale>1.20</logoScale>
         <logoSize>0.18 0.11</logoSize>
         <color>00000000</color>
         <maxLogoCount>13</maxLogoCount>
@@ -108,6 +103,45 @@
 <reflexion>0.50 0.0</reflexion>
 </text>
         
+<image name="personaje" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>FFFFFFFF</color>
+<origin>0 0</origin>
+<pos>0.270 0.2900</pos>
+<size>0.2095 0.7055</size>
+<glowColor>000000</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>62</zIndex>
+</image>
+
+<image name="personaje2" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>2EFE2E</color>
+<origin>0 0</origin>
+<pos>0.270 0.2900</pos>
+<size>0.2095 0.7055</size>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>60</zIndex>
+</image>
+
+<image name="personaje3" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>FE2EF7</color>
+<origin>0 0</origin>
+<pos>0.270 0.2900</pos>
+<size>0.2095 0.7055</size>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>61</zIndex>
+</image>
+
 <helpsystem name="help">
 <visible>false</visible>
 <textColor>1C00ff00</textColor>

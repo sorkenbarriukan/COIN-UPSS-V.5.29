@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<view name="basic, detailed, grid">
+<image name="personaje" extra="true">
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="4000" repeat="3"/>
+</storyboard>
+</image>
+
+<image name="personaje2" extra="true">
+<visible>false</visible>
+</image>
+
+<image name="personaje3" extra="true">
+<visible>flase</visible>
+</image>
+</view>
+</theme>

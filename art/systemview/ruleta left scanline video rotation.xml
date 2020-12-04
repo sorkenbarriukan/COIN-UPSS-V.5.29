@@ -7,8 +7,17 @@
 <size>1 1</size>
 <pos>0 0</pos>
 <origin>0 0</origin>
-<path>./art/fondos/ruleta left scanline video rotation.png</path>
+<path>./art/fondos/fondo ruleta.png</path>
 <zIndex>30</zIndex>
+</image>
+
+<image name="fondovideo" extra="true">
+<tile>false</tile>
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./art/fondos/ruleta left scanline video rotation.png</path>
+<zIndex>22</zIndex>
 </image>
   
 <image name="background3" extra="true">
@@ -61,27 +70,11 @@
 <color>FFFFFFFF</color>
 <origin>0 0</origin>
 <pos>0.8250 0.7067</pos>
-<size>0.1000 0.1000</size>
+<maxSize>0.14 0.14</maxSize>
 <storyboard repeat="forever">
 <animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="4000" repeat="3"/>
 </storyboard>  
 <zIndex>90</zIndex>
-</image>
-
-<image name="personaje" extra="true">
-<path>./art/sistemas/character/default.png</path>
-<path>./art/sistemas/character/${system.theme}.png</path>
-<color>FFFFFFFF</color>
-<reflexion>0.29 0.0</reflexion>
-<origin>0 0</origin>
-<pos>0.2250 0.2567</pos>
-<size>0.2595 0.7455</size>
-<storyboard repeat="1">
-<animation property="scale" from="0" to="1" duration="3800" mode="ease-in-out"/> 
-<animation property="rotation" from="-5" to="5" duration="800" autoreverse="true" begin="4000" repeat="2"/>  
-<animation property="x" from="1.01" begin="0" duration="5250" mode="easeOut"/>
-</storyboard>  
-<zIndex>60</zIndex>
 </image>
 
 <video name="backgroundvideo" extra="true" ifHelpPrompts="false">
@@ -127,6 +120,45 @@
 <reflexion>0.50 0.0</reflexion>
 </text>
         
+<image name="personaje" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>FFFFFFFF</color>
+<origin>0 0</origin>
+<pos>0.270 0.2900</pos>
+<size>0.2095 0.7055</size>
+<glowColor>000000</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>62</zIndex>
+</image>
+
+<image name="personaje2" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>2EFE2E</color>
+<origin>0 0</origin>
+<pos>0.270 0.2900</pos>
+<size>0.2095 0.7055</size>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>60</zIndex>
+</image>
+
+<image name="personaje3" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>FE2EF7</color>
+<origin>0 0</origin>
+<pos>0.270 0.2900</pos>
+<size>0.2095 0.7055</size>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>61</zIndex>
+</image>
+
 <image name="logo">
 <path>./art/sistemas/silverring/default.png</path>
 <path>./art/sistemas/silverring/${system.theme}.png</path>
