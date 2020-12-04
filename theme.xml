@@ -101,6 +101,7 @@
 <include name="Stretch to right" displayName="${yes}">./art/sistemas/storyboards/backgrownd/Stretch right.xml</include>
 <include name="For all sides" displayName="${yes}">./art/sistemas/storyboards/backgrownd/For all sides.xml</include>
 <include name="Stretch down" displayName="${yes}">./art/sistemas/storyboards/backgrownd/Stretch down.xml</include>
+<include name="Vueltas" displayName="${yes}">./art/sistemas/storyboards/backgrownd/vueltas.xml</include>
 </subset>
 
 <!--systemInfoEx-->
@@ -264,6 +265,7 @@
 <include name="Extender hacia abajo">./art/sistemas/storyboards/system/character/Vuelta centro.xml</include>
 <include name="Stretch left">./art/sistemas/storyboards/system/character/Stretch right.xml</include>
 <include name="Stretch left&Up">./art/sistemas/storyboards/system/character/Stretch left&Up.xml</include>
+<include name="Estirar">./art/sistemas/storyboards/system/character/vueltas.xml</include>
 </subset>
 
 <!--storyboards  Menu Video-->

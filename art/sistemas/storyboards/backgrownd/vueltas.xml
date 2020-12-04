@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system, basic, detailed, grid, carousell">
+<image name="background3" extra="true">
+<storyboard repeat="1">
+<animation property="rotation" from="0" to="360" duration="1500"/>
+<animation property="rotation" from="0" to="360" duration="1500" begin="11000"/>
+<animation property="rotation" from="0" to="360" duration="1500" begin="22000"/>
+<animation property="rotation" from="0" to="360" duration="1500" begin="33000"/>
+<animation property="rotation" from="0" to="360" duration="1500" begin="44000"/>
+<animation property="rotation" from="0" to="360" duration="1500" begin="55000"/>
+<animation property="rotation" from="0" to="360" duration="1500" begin="66000"/>
+<animation property="rotation" from="0" to="360" duration="1500" begin="77000"/>
+<animation property="rotation" from="0" to="360" duration="1500" begin="88000"/>
+<animation property="rotation" from="0" to="360" duration="1500" begin="99000"/>
+<animation property="rotation" from="0" to="360" duration="1500" begin="1110000"/>
+<animation property="rotation" from="0" to="360" duration="1500" begin="122000"/>
+<animation property="rotation" from="0" to="360" duration="1500" begin="133000"/>
+<animation property="rotation" from="0" to="360" duration="1500" begin="144000"/>
+<animation property="rotation" from="0" to="360" duration="1500" begin="155000"/>
+<animation property="rotation" from="0" to="360" duration="1500" begin="166000"/>
+</storyboard>
+</image>
+</view>
+</theme>
