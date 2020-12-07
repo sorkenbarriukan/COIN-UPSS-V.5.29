@@ -53,6 +53,14 @@ Nintendo Switch-- version para agregar el emulador yuzu
 SOLO DEVES PEGAR LOS JUEGOS EN LA CARPETA switch
 EXTENCIONES ACEPTADAS PARA SEGA MODEL3 (.pc .exe)
 
+Xbox 360-- version para agregar algun emulador
+SOLO DEVES PEGAR LOS JUEGOS EN LA CARPETA xbox360
+EXTENCIONES ACEPTADAS PARA SEGA MODEL3 (.pc .exe)
+
+Xbox Clasic-- version para agregar algun emulador
+SOLO DEVES PEGAR LOS JUEGOS EN LA CARPETA xbox
+EXTENCIONES ACEPTADAS PARA SEGA MODEL3 (.pc .exe)
+
 
 Esto es para crear los sistemas mencionados arriba. esto Funciona ejecutando wine.
 Por ejemplo si se quiere activar model3 de sega creas un archivo .exe o una carpeta .pc ya con un juego y su emulador, ya solo lo pegas en la carpeta model3. Y en batocera veras el sistema model3 y no como un juego de windows.
