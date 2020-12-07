@@ -1,8 +1,78 @@
 
-
 Archivo es_systems.cfg esta configurado para leer las demás colecciones que funcionan con el emulador de mame por ejemplo: banpresto, irem, jaleo, kaneco, dataeast, toaplan etc, 
 
 El archivo solo pégalo en la ruta. Share/system/config/emulationstation
+
+
+TAMBIEN YA LLEVA CONFIGURADO EL SISTEMA MUGEN.
+SOLO DEVES PEGAR LOS JUEGOS EN LA CARPETA MUGEN 
+PARA QUE EL TEMA ACTIVE LA VISTA DE MUGEN
+EXTENCIONES ACEPTADAS PARA MUGEN (.pc .exe)
+
+
+SEGA MODEL3
+SOLO DEVES PEGAR LOS JUEGOS EN LA CARPETA model3 
+EXTENCIONES ACEPTADAS PARA SEGA MODEL3 (.pc .exe)
+
+
+Sega Dreamcast--Esta version es para si se quiere agregar el emulador redream
+SOLO DEVES PEGAR LOS JUEGOS EN LA CARPETA redream
+EXTENCIONES ACEPTADAS PARA SEGA MODEL3 (.pc .exe)
+
+
+NESiCAxLIVE
+SOLO DEVES PEGAR LOS JUEGOS EN LA CARPETA nesicaxlive
+EXTENCIONES ACEPTADAS PARA SEGA MODEL3 (.pc .exe)
+
+
+Taito Type X
+SOLO DEVES PEGAR LOS JUEGOS EN LA CARPETA taitox
+EXTENCIONES ACEPTADAS PARA SEGA MODEL3 (.pc .exe)
+
+
+Pinball arcade
+SOLO DEVES PEGAR LOS JUEGOS EN LA CARPETA apinball
+EXTENCIONES ACEPTADAS PARA SEGA MODEL3 (.pc .exe)
+
+Future Pinball
+SOLO DEVES PEGAR LOS JUEGOS EN LA CARPETA fpinball
+EXTENCIONES ACEPTADAS PARA SEGA MODEL3 (.pc .exe)
+
+
+pinballfx2
+SOLO DEVES PEGAR LOS JUEGOS EN LA CARPETA pinballfx2
+EXTENCIONES ACEPTADAS PARA SEGA MODEL3 (.pc .exe)
+
+
+pinballfx3
+SOLO DEVES PEGAR LOS JUEGOS EN LA CARPETA pinballfx3
+EXTENCIONES ACEPTADAS PARA SEGA MODEL3 (.pc .exe)
+
+
+Nintendo Switch-- version para agregar el emulador yuzu
+SOLO DEVES PEGAR LOS JUEGOS EN LA CARPETA switch
+EXTENCIONES ACEPTADAS PARA SEGA MODEL3 (.pc .exe)
+
+
+Esto es para crear los sistemas mencionados arriba. esto Funciona ejecutando wine.
+Por ejemplo si se quiere activar model3 de sega creas un archivo .exe o una carpeta .pc ya con un juego y su emulador, ya solo lo pegas en la carpeta model3. Y en batocera veras el sistema model3 y no como un juego de windows.
+
+Lo mismo para mugen creas un .exe o una carpeta .pc juego y emulador dentro t su respectivo .cmd solo se pega en la carpeta mugen y listo en batocera ya tendrás el sistema mugen.
+
+Y así para el resto...
+
+
+Nota no lo he probado pero en teoría debería funcionar, claro siempre y cuando batocera Linux pueda ejecutar tales emuladores.
+
+
+Las carpetas mencionadas no existen en batocera, por lo tanto tu debes crearlas y poner tus juegos según el sistema que sea.
+
+Como nota final: esto es para que funcione con el tema coin-upss con otros temas podría ser que no, ya que cada quien le ha puesto el nombre que ha querido a las colecciones.
+
+
+
+
+
 
 ------------------------------------------------------------------------------------
 
