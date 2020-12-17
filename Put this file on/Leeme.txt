@@ -1,5 +1,5 @@
 
-Archivo es_systems.cfg esta configurado para leer las demás colecciones que funcionan con el emulador de mame por ejemplo: banpresto, irem, jaleo, kaneco, dataeast, toaplan etc, 
+Archivo es_systems.cfg esta configurado para leer las demás colecciones que funcionan con el emulador de mame por ejemplo: banpresto, irem, jaleco, kaneco, dataeast, toaplan etc, 
 
 El archivo solo pégalo en la ruta. Share/system/config/emulationstation
 
@@ -272,6 +272,14 @@ WOLFLAME.pc
 yes-Space Invaders nesica.pc
 Zombasite.v1.022.pc
 
+---------------------------------------------------
+Actualizada.
 
+Ascendant.pc
+Bad Run Turbo Edition.pc
+Never Going Home.pc
+Samurai.Revenge.pc
+Alwa's Awakening.pc
+Monochroma.pc -- Funciona bien con teclado, con gamepad se aloca
 
 Fin...
