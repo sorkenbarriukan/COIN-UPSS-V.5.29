@@ -125,49 +125,68 @@ Aclaracion por cada juego que funcione con wine batocera linux crea una cxarpeta
 
 
 ----------------------------------------lista de los juegos que he probado y han cargado-------------------------------------------------------------------------
+
+
 1.Screen.Platformer.pc
-Active.Neurons.2.pc
-Angry Video Game Nerd I & II Deluxe.pc
+A.Hole.New.World.pc
 Abstractanoid.pc
+Active.Neurons.2.pc
 Aeon Drive Beta.pc
 Aggelos.v1.065.pc
 Alpha Version.0 End All.pc
 Alphaman.pc
+Alwa's Awakening.pc
+Angry Video Game Nerd I & II Deluxe.pc
+Armed with Wings Rearmed.pc
+Ascendant.pc
+AuraOfWorlds.pc
+Bad Run Turbo Edition.pc
+Battle Crust.pc
 Best.Buds.v0.8a.pc
 Bite.the.Bullet.v1.3.0.pc
 Boom Blaster.pc
 BroForce beta.pc
 Bronze Hoof.pc
-Battle Crust.pc
-Cathedral.pc
-Celeste.pc
-Clash Force.pc
-Cryogear.pc
-Cursed Gem.pc
 CARRION.v1.0.3.305.pc
 Cathedral.pc
+Cathedral.pc
+Caveblazers.v1.5.2a.pc
+Celeste.pc
 Citadel.1986.pc
+Clash Force.pc
 Code Arcturus.pc
+CrashMetal.Cyberpunk.pc
+Cryogear.pc
 Crypt.Stalker.pc
+Cursed Gem.pc
+Dandara Trials of Fear Edition.pc
 Dead Cells The Bestiary.pc
 Dead Dungeon.pc
-Dungeon Core.pc
-Dungeon.Escape.v1.2.4.pc
-DYE.pc
+Dead Sky.pc
 Devious Dungeon 2.pc
 DreadStar.pc
+Dungeon.Escape.v1.2.4.pc
+Dungeon Core.pc
+DYE.pc
+EMMA Lost in Memories.pc
 Enter Digiton.pc
 Escape.Zolstar.pc
-Eternal Hope.pc
 Eternal.Dungeon.pc
+Eternal Hope.pc
 Evil.Inquisitor.pc
 Find.Me.pc
 Fire.Arrow.Plus1.pc
 Fire.Arrow.PlusX.pc
 FIREWORK.pc
+Fobia.pc
 Foregone.v0.8.0.pc
 Freedom Planet.pc
+Gensou SkyDrift.pc  solo en modo ventana
+Ghost 1.0.pc.   Segun no guarda avance
+Ghost Guns.pc
+Ghostory.pc
 Ghosts'n DJs.pc
+Giveup2.pc        
 Gleamlight.pc
 Guacamelee! Gold Edition.pc  al parecer no muestra videos pero el juego es jugable.
 Gunpoint.v22.05.2015.pc
@@ -176,15 +195,17 @@ HopBound.pc
 Hue.pc
 HUNTDOWN.pc
 I'm Russia.pc
+Iconoclasts.v1.15.pc
 In Between.pc
+Infinite Skyline.pc.   --very slow
 INMOST.v1.0.2.pc
 Ion Fury.pc
 Iro Hero.pc
 Jazz Lightning.pc
 Jump Man.pc
+Katana.ZERO.v1.0.5.pc       
 KungFury.pc
 kuso.pc
-Katana.ZERO.v1.0.5.pc
 Level 20.pc
 Life Goes On Done to Death.pc
 Light Fall Lost Worlds Edition.pc
@@ -195,9 +216,14 @@ MECHBLAZE.pc
 MegaSphere.v13.10.2019.pc
 Metaloid.Origin.pc
 Mibiblis.Quest.pc
-Minimized II.pc
+Mini Ghost.pc
 Minimized.Incl.DLC.pc
+Minimized II.pc
 Mists.of.Noyah.v0.0.6.pc
+Momodora - Reverie Under the Moonlight.pc
+Momodora III.pc
+Monochroma.pc -- Funciona bien con teclado, con gamepad se aloca
+Morbid.The.Seven.Acolytes.v14.12.2020.pc
 MuteCrimson.pc
 Mystic.Melee.v20.09.2017.pc
 N++.pc
@@ -205,7 +231,8 @@ Nano Project.pc
 Necrosphere Deluxe32b.pc
 Neon Aileron.pc
 Neon Fusion.pc
-Never Give Up.pc
+Never Give Up.pc     
+Never Going Home.pc
 NightSky.pc
 Nirvana Pilot Yume.pc
 Obsolete.pc
@@ -213,16 +240,17 @@ OlliOlli.pc
 Omega.Strike.v1.0.1.pc
 Oniken.pc
 OUTBUDDIES.pc
-OutlanSpecialEdition.pc
+OutlanSpecialEdition.pc   
 Outpost Delta.pc
 Outrunner.3.v23.04.2019.pc
 OVERWHELM.pc
+PAC-MAN and the Ghostly Adventures.pc
 Perspectrum.pc
 Pix.pc
 Pixboy.pc
 Pixel.Shinobi.Nine.demons.of.Mamoru.v1.1.0.0.pc
 Polyroll.pc
-Primal Light.pc
+Primal Light.pc       
 Puss in Boots Fear Not Hooman.pc
 puzzle_party.pc
 Record of Lodoss War-Deedlit in Wonder Labyrinth.pc
@@ -230,56 +258,57 @@ Remnants of Naezith.pc
 Rift Racoon.pc
 RITE.pc
 ROCKETRON.pc
+RollingSky2.pc
 Run.Dude.pc
 RunGunJumpGun.pc
 Rush Bros.pc
 Rusty Gun.pc
+Samurai.Revenge.pc
 Saturn Quest - Shadow of Planetus.pc
 Savage Halloween.pc
 Sayonara.Wild.Hearts.pc
-ScourgeBringer.v1.44.pc
+ScourgeBringer.v1.44.pc       
+Shift Quantum Traps.pc
 Shikari Rising.pc
 Shiro.pc
+Sky.Reaper.pc.   ---No se ve el texto de los menus pero el juego es jugable
+Sky.To.Fly.Soulless.Leviathan.pc
+Sky Force Reloaded.pc
 Slain.Back.from.Hell.pc
 Slipstream.pc
-Sponchies.exe
-Starr.Mazer.DSP.v0.4.27.pc
-Streets.of.Rage.Remake.v5.0.pc
-Sulver's Journey.pc
-Super Rad Raygun.pc
+Space Invaders nesica.pc
 Spirits.Abyss.v13.13.pc
+Sponchies.exe
 SPROUT.pc
 Star.Girl.Proxima.pc
+Starr.Mazer.DSP.v0.4.27.pc
 Stealth Bastard Complete Edition.pc
+Streets.of.Rage.Remake.v5.0.pc
+Sulver's Journey.pc
 Super.Hydorah.pc
+Super Dangerous Dungeons.pc
 Super Nate Adventure.pc
-The Kings Bird.pc
-Trip to Vinelands.pc
-Tulpa.pc
-Two Parsecs From Earth.pc
+Super Rad Raygun.pc
+Teslagrad.pc
 The.End.Is.Nigh.v02.12.2019.pc
 The Final Boss.pc
+The Kings Bird.pc
+The Mummy Demastered.pc
 TheAltoCollection.pc
 TOKOYO - The Tower of Perpetuity.pc
+Touhou.Luna.Nights.v1.2.3.5.pc
+Trip to Vinelands.pc
 TTV2.pc
+Tulpa.pc
+Two Parsecs From Earth.pc
 Underhero.v4.1.4.pc
 Unleashed.pc
-VVVVVV_2.0.pc
 Vintage Hero.pc
+Vision Soft Reset.pc
+VVVVVV_2.0.pc
 Wallachia.pc
 WaveLand.v1.1.4.pc
 WOLFLAME.pc
-yes-Space Invaders nesica.pc
 Zombasite.v1.022.pc
-
----------------------------------------------------
-Actualizada.
-
-Ascendant.pc
-Bad Run Turbo Edition.pc
-Never Going Home.pc
-Samurai.Revenge.pc
-Alwa's Awakening.pc
-Monochroma.pc -- Funciona bien con teclado, con gamepad se aloca
 
 Fin...
