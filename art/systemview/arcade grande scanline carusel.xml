@@ -122,8 +122,8 @@
 <logoScale>1.45</logoScale>
 <logoSize>0.150 0.260</logoSize>
 <color>00000000</color>
-<maxLogoCount>13</maxLogoCount>
-<logoRotation>15</logoRotation>
+<maxLogoCount>35</maxLogoCount>
+<logoRotation>8</logoRotation>
 <logoRotationOrigin>3.0 0.5</logoRotationOrigin>
 <logoAlignment>center</logoAlignment>   
 <zIndex>90</zIndex> 

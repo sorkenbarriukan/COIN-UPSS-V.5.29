@@ -84,7 +84,7 @@
 		<defaultTransition>instant</defaultTransition>
         <type>horizontal</type>
         <rotation>-05</rotation>
-        <pos>-0.390 0.390</pos>
+        <pos>-0.365 0.390</pos>
         <size>1 1</size>
         <logoScale>1.80</logoScale>
         <logoSize>0.15 0.08</logoSize>

@@ -86,10 +86,11 @@
 <type>vertical_wheel</type>
 <pos>0.020 0.040</pos>
 <size>0.2358 0.8920</size>
-<logoScale>1.01</logoScale>
+<logoScale>2.01</logoScale>
 <logoSize>0.080 0.190</logoSize>
 <color>00000000</color>
-<logoRotation>35</logoRotation>
+<maxLogoCount>25</maxLogoCount>
+<logoRotation>8</logoRotation>
 <logoRotationOrigin>3.0 0.5</logoRotationOrigin>
 <logoAlignment>left</logoAlignment>   
 <zIndex>90</zIndex>    
