@@ -364,29 +364,20 @@
 <!---------------------------Menus--------Texto-----------iconos----------------------- -->
 <view name="menu">
 <menuText name="menutitle">
-<fontPath>./art/fuentes/Cabin-Bold.ttf</fontPath>
+<fontPath>./art/fuentes/CUBS LED TFB.ttf</fontPath>
 <fontSize>0.028</fontSize>
-<color>ffffff</color>
 </menuText>
 <menuText name="menufooter">
-<fontPath>./art/fuentes/Cabin-Regular.ttf</fontPath>
+<fontPath>./art/fuentes/CUBS LED TFB.ttf</fontPath>
 <fontSize>0.02</fontSize>
-<color>ffffff</color>
 </menuText>
 <menuText name="menutext">
-<fontPath>./art/fuentes/Bebas Neue.ttf</fontPath>
+<fontPath>./art/fuentes/CUBS LED TFB.ttf</fontPath>
 <fontSize>0.028</fontSize>
-<color>ffffff</color>
-<separatorColor>323232FF</separatorColor>
-<selectorColor>${baseColor}</selectorColor>
-<selectorColorEnd>${gradientEndColor}</selectorColorEnd>
-<selectedColor>ffffff</selectedColor>
-<selectorGradientType>horizontal</selectorGradientType>
 </menuText>
 <menuTextSmall name="menutextsmall">
-<fontPath>./art/fuentes/Bebas Neue.ttf</fontPath>
+<fontPath>./art/fuentes/CUBS LED TFB.ttf</fontPath>
 <fontSize>0.03</fontSize>
-<color>${baseColor}</color>
 </menuTextSmall>
 <menuBackground name="menubg">
 <color>c5bdb2</color>
