@@ -21,7 +21,7 @@
 
 <menuText name="menutext">
 <color>A4A4A4</color>
-<separatorColor>FE9A2E</separatorColor>
+<separatorColor>000000</separatorColor>
 <selectorColor>${baseColor}</selectorColor>
 <selectorColorEnd>${gradientEndColor}</selectorColorEnd>
 <selectedColor>1C1C1C</selectedColor>

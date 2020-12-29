@@ -29,7 +29,7 @@
 </menuText>
 
 <menuTextSmall name="menutextsmall">
-<color>ffffff</color>
+<color>FFFF00</color>
 </menuTextSmall>
   </view>
 </theme>

@@ -22,15 +22,20 @@
 <zIndex>10</zIndex>
 </image>
     
-<image name="fondotv" extra="true">
-<tile>false</tile>
+       
+<video name="backgroundvideo2" extra="true">
+<visible>true</visible>
+<path>./art/videos/frame5.mp4</path>   
 <pos>0.6677 0.538</pos>
 <origin>0.5 0.5</origin>
-<size>0.6040 0.688</size>
-<path>./art/fondos/fondo video pantalla curva.png</path>
-<zIndex>55</zIndex>
-</image>
-
+<size>0.5700 0.588</size>
+<effect>loop</effect>
+<delay>0</delay>
+<color>FFFFFF</color>   
+<zIndex>54</zIndex>
+</video>    
+    
+    
 <image name="predeterminado" extra="true">
 <tile>false</tile>
 <Delay>800</Delay>
@@ -118,19 +123,19 @@
 </image>
 
 <carousel name="systemcarousel">
-<linearSmooth>true</linearSmooth>
-		<defaultTransition>instant</defaultTransition>
-        <type>vertical_wheel</type>
-        <pos>-0.390 0</pos>
-        <size>1 1</size>
-        <logoScale>1.20</logoScale>
-        <logoSize>0.18 0.11</logoSize>
-        <color>00000000</color>
-        <maxLogoCount>13</maxLogoCount>
-        <logoRotation>-3</logoRotation>
-		<logoRotationOrigin>-5.0 0.5</logoRotationOrigin>
-		<logoAlignment>center</logoAlignment>   
-<zIndex>90</zIndex> 
+<zIndex>43</zIndex>	      
+<type>vertical</type>
+<pos>-0.36 0</pos>
+<size>1 1</size>
+<logoScale>1.45</logoScale>
+<logoSize>0.150 0.260</logoSize>
+<color>00000000</color>
+<maxLogoCount>11</maxLogoCount>
+<logoRotation>15</logoRotation>
+<logoRotationOrigin>3.0 0.5</logoRotationOrigin>
+<logoAlignment>center</logoAlignment>   
+<zIndex>90</zIndex>    
+     
 </carousel>
 
 <text name="systemInfo">

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <theme>
 <formatVersion>7</formatVersion>
-<view name="basic, detailed, grid">
+<view name="basic, detailed, grid, Carousel, gamecarousel">
 <imagegrid name="gamegrid">
 <scrollSound>./art/sonidos/keyok2.mp3</scrollSound>
 </imagegrid>
@@ -9,5 +9,9 @@
 <textlist name="gamelist">
 <scrollSound>./art/sonidos/keyok2.mp3</scrollSound>
 </textlist>
+
+<gamecarousel name="gamecarousel">
+<scrollSound>./art/sonidos/keyok2.mp3</scrollSound>
+</gamecarousel> 
 </view>
 </theme>
