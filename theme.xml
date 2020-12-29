@@ -364,19 +364,19 @@
 <!---------------------------Menus--------Texto-----------iconos----------------------- -->
 <view name="menu">
 <menuText name="menutitle">
-<fontPath>./art/fuentes/CUBS LED TFB.ttf</fontPath>
+<fontPath>./art/fuentes/Pixel LCD-7.ttf</fontPath>
 <fontSize>0.028</fontSize>
 </menuText>
 <menuText name="menufooter">
-<fontPath>./art/fuentes/CUBS LED TFB.ttf</fontPath>
+<fontPath>./art/fuentes/Pixel LCD-7.ttf</fontPath>
 <fontSize>0.02</fontSize>
 </menuText>
 <menuText name="menutext">
-<fontPath>./art/fuentes/CUBS LED TFB.ttf</fontPath>
+<fontPath>./art/fuentes/Pixel LCD-7.ttf</fontPath>
 <fontSize>0.028</fontSize>
 </menuText>
 <menuTextSmall name="menutextsmall">
-<fontPath>./art/fuentes/CUBS LED TFB.ttf</fontPath>
+<fontPath>./art/fuentes/Pixel LCD-7.ttf</fontPath>
 <fontSize>0.03</fontSize>
 </menuTextSmall>
 <menuBackground name="menubg">
