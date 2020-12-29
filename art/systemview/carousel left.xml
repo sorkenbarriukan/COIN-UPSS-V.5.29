@@ -133,6 +133,43 @@
         <animation property="x" from="1.0" begin="0" duration="1250" mode="easeOut"/>  
 </storyboard>
 </text>
+
+<image name="box1" extra="true">
+<origin>0.5 0.5</origin>
+<pos>0.90 0.80</pos>
+<maxSize>0.11 0.24</maxSize>
+<zIndex>89</zIndex>
+<path>{random:thumbnail}</path>
+<color>FFFFFFFF</color>
+<origin>0.5 0.5</origin>
+<roundCorners>0.05</roundCorners>
+<visible>true</visible>
+<reflexion>0.50 0.0</reflexion>
+<opacity>0</opacity>
+<scale>0</scale>
+<scaleOrigin>0 0.5</scaleOrigin>
+<storyboard repeat="forever">
+<animation property="opacity" from="0" to="1" begin="350" duration="1000" mode="linear"/>
+<animation property="scale" from="0" to="1" begin="350" duration="1000" mode="bump"/>
+<animation property="scaleOrigin" to="0" begin="9000" duration="0"/>
+<animation property="scale" from="1" to="0" begin="9000" duration="1000" mode="easeOut"/>
+<animation property="opacity" from="1" to="0" begin="9000" duration="1000" mode="easeOut"/>
+</storyboard>
+</image>
+    
+<image name="consola" extra="true">
+<path>./art/sistemas/consoles/default.png</path>
+<path>./art/sistemas/consoles/${system.theme}.png</path>
+<color>FFFFFFFF</color>
+<origin>0 0</origin>
+<pos>0.7150 0.7430</pos>
+<maxSize>0.14 0.14</maxSize>
+<reflexion>0.30 0.0</reflexion>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="4000" repeat="3"/>
+</storyboard>  
+<zIndex>90</zIndex>
+</image>
     
 <text name="logoText">
 <fontPath>./art/fuentes/Bebas Neue.ttf</fontPath>
