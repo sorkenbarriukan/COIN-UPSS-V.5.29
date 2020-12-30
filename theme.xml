@@ -7690,13 +7690,13 @@
 </customView>
 
 
-<customView name="Hyperspin" inherits="grid" displayName="${gridDetailsViewName}">
+<customView name="Hyperspin" inherits="gamecarousel" displayName="${gridDetailsViewName}">
 <image name="background" extra="true">
 <tile>false</tile>
 <size>1 1</size>
 <pos>0 0</pos>
 <origin>0 0</origin>
-<path>./art/fondos/fondo hypM.png</path>
+<path>./art/fondos/fondo hypS.png</path>
 <zIndex>10</zIndex>
 </image>
 
@@ -7809,6 +7809,20 @@
 <zIndex>20</zIndex>
 </image>
 
+  <image name="md_thumbnail">
+<origin>0.9 0.5</origin>
+<pos>0.10 0.80</pos>
+<maxSize>0.11 0.24</maxSize>
+<color>808080</color>
+<zIndex>90</zIndex>
+<linearSmooth>true</linearSmooth>
+<storyboard repeat="forever">
+<animation property="y" from="0.76" begin="0" duration="4450" autoreverse="true" mode="easeOut" begin="4000" repeat="0"/>
+<animation property="w" from="0.11" begin="2450" duration="4450" autoreverse="true" mode="easeOut" begin="4000" repeat="0"/>
+<animation property="h" from="0.0.315" begin="2450" duration="4450" autoreverse="true" mode="easeOut" begin="4000" repeat="3"/>
+</storyboard> 
+</image>
+
 <image name="consola" extra="true">
 <path>./art/sistemas/consoles/default.png</path>
 <path>./art/sistemas/consoles/${system.theme}.png</path>
@@ -7837,6 +7851,7 @@
 </image>
 
 <image name="personaje2" extra="true">
+<visible>false</visible>
 <path>./art/sistemas/character/default.png</path>
 <path>./art/sistemas/character/${system.theme}.png</path>
 <origin>0 0</origin>
@@ -7846,6 +7861,20 @@
 <glowSize>2</glowSize>
 <reflexion>0.50 0.0</reflexion>
 <zIndex>60</zIndex>
+</image>
+
+<image name="personaje3" extra="true">
+<visible>false</visible>
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>FE2EF7</color>
+<origin>0 0</origin>
+<pos>0.480 0.2560</pos>
+<size>0.2095 0.7055</size>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>61</zIndex>
 </image>
 
 <image name="md_image">
@@ -7890,6 +7919,10 @@
 <size>0.200 0.130</size>
 <origin>0.5 0.5</origin>
 <zIndex>90</zIndex>
+<storyboard repeat="forever">
+<animation property="y" from="0.156" begin="0" duration="3450" autoreverse="true" mode="easeOut" begin="4000" repeat="0"/>
+<animation property="w" from="0.0.315" begin="2450" duration="4450" autoreverse="true" mode="easeOut" begin="4000" repeat="0"/>
+</storyboard> 
 </image>	
 
 <image name="logo">
