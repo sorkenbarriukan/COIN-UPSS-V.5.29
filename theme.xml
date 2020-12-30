@@ -365,7 +365,7 @@
 <view name="menu">
 <menuText name="menutitle">
 <fontPath>./art/fuentes/Pixel LCD-7.ttf</fontPath>
-<fontSize>0.028</fontSize>
+<fontSize>0.020</fontSize>
 </menuText>
 <menuText name="menufooter">
 <fontPath>./art/fuentes/Pixel LCD-7.ttf</fontPath>
@@ -373,7 +373,7 @@
 </menuText>
 <menuText name="menutext">
 <fontPath>./art/fuentes/Pixel LCD-7.ttf</fontPath>
-<fontSize>0.028</fontSize>
+<fontSize>0.020</fontSize>
 </menuText>
 <menuTextSmall name="menutextsmall">
 <fontPath>./art/fuentes/Pixel LCD-7.ttf</fontPath>
@@ -1670,15 +1670,15 @@
 <zIndex>20</zIndex>
 </text>
 <image name="logo">
-<pos>0.290 0.118</pos>
-<size>0.430 0.180</size>
+<pos>0.287 0.125</pos>
+<size>0.430 0.210</size>
 <origin>0.5 0.5</origin>
 <zIndex>20</zIndex>
 </image>
 
 <image name="md_marquee">
-<pos>0.290 0.118</pos>
-<size>0.430 0.180</size>
+<pos>0.287 0.125</pos>
+<size>0.430 0.210</size>
 <origin>0.5 0.5</origin>
 <zIndex>20</zIndex>
 </image>	
@@ -1719,7 +1719,6 @@
 <zIndex>200</zIndex>
 </image>
 </customView>
-
 
 
 <customView name="Cabin + Wheel  Left" inherits="gamecarousel" displayName="${gridDetailsViewName}">
@@ -1888,8 +1887,8 @@
 </helpsystem>
 
  <text name="logoText">
-<pos>0.727 0.118</pos>
-<size>0.430 0.180</size>
+<pos>0.727 0.120</pos>
+<size>0.430 0.210</size>
 <origin>0.5 0.5</origin>
 <alignment>center</alignment>
 <fontSize>0.08</fontSize>
@@ -1897,9 +1896,10 @@
 <color>00000000</color>
 <zIndex>20</zIndex>
 </text>
+
 <image name="logo">
-<pos>0.727 0.118</pos>
-<size>0.430 0.180</size>
+<pos>0.727 0.120</pos>
+<size>0.430 0.210</size>
 <origin>0.5 0.5</origin>
 <zIndex>20</zIndex>
 </image>
@@ -1917,8 +1917,8 @@
 </video>
     
 <image name="md_marquee">
-<pos>0.727 0.118</pos>
-<size>0.430 0.180</size>
+<pos>0.727 0.120</pos>
+<size>0.430 0.210</size>
 <origin>0.5 0.5</origin>
 <zIndex>20</zIndex>
 </image>	

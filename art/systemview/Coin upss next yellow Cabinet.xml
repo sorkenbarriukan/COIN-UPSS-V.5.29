@@ -63,7 +63,19 @@
 <animation property="y" from="0" begin="0" duration="700" mode="easeOut"/>
 </storyboard>
 </video>
-    
+ 
+  <video name="backgroundvideo2" extra="true">
+<path>./art/logcarou.mp4</path>                 
+<pos>0.287 0.121</pos>
+<size>0.455 0.200</size>
+<origin>0.5 0.5</origin>
+<delay>0</delay>
+<showSnapshotNoVideo>false</showSnapshotNoVideo>
+<showSnapshotDelay>false</showSnapshotDelay>
+<color>FFFFFF</color>
+<zIndex>19</zIndex>      
+</video>
+   
 <image name="personaje" extra="true">
 <path>./art/sistemas/character/default.png</path>
 <path>./art/sistemas/character/${system.theme}.png</path>
