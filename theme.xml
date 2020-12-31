@@ -9,6 +9,7 @@
 <MarqueeStyleName>Marquee Style</MarqueeStyleName>
 <systemViewExInfos>Show system InfoEx</systemViewExInfos> 
 <subset.Logosoncarousel>Change Logos On Carousel</subset.Logosoncarousel>
+<subset.colorbg>Efect Color Background</subset.colorbg>
 <subset.systembackground>Animation Background</subset.systembackground>
 <subset.shader>Shader</subset.shader>
  <subset.colorset>Colorset</subset.colorset>
@@ -85,6 +86,18 @@
 <include name="Marquee" displayName="${no}">./art/sistemas/storyboards/logos/marquee.xml</include> 
 <include name="Cartridge Nes" displayName="${no}">./art/sistemas/storyboards/logos/nes.xml</include> 
 <include name="Consoles" displayName="${no}">./art/sistemas/storyboards/logos/consoles.xml</include>     
+</subset>
+
+<!--color en backgrownd -->
+<subset name="colorbg" displayName="${subset.colorbg}">
+<include name="Normal" displayName="${Orange}">./art/sistemas/storyboards/colorbg/normal.xml</include>
+<include name="Fuchsia" displayName="${red}">./art/sistemas/storyboards/colorbg/violeta.xml</include>
+<include name="Green" displayName="${red}">./art/sistemas/storyboards/colorbg/verde.xml</include>
+<include name="Orange" displayName="${red}">./art/sistemas/storyboards/colorbg/naranja.xml</include>
+<include name="red" displayName="${red}">./art/sistemas/storyboards/colorbg/rojo.xml</include>
+<include name="Yellow" displayName="${red}">./art/sistemas/storyboards/colorbg/amarillo.xml</include>
+<include name="Aqua" displayName="${red}">./art/sistemas/storyboards/colorbg/aqua.xml</include>
+<include name="blue" displayName="${red}">./art/sistemas/storyboards/colorbg/azul.xml</include>
 </subset>
 
 <!--Animate Backgrownd-->
