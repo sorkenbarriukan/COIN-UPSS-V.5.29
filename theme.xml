@@ -116,6 +116,10 @@
 <include name="For all sides" displayName="${yes}">./art/sistemas/storyboards/backgrownd/For all sides.xml</include>
 <include name="Stretch down" displayName="${yes}">./art/sistemas/storyboards/backgrownd/Stretch down.xml</include>
 <include name="Vueltas" displayName="${yes}">./art/sistemas/storyboards/backgrownd/vueltas.xml</include>
+<include name="Animation Red 2 Orange" displayName="${red}">./art/sistemas/storyboards/colorbg/rojo&naranja.xml</include>
+<include name="Animation Yellow 2 Red" displayName="${red}">./art/sistemas/storyboards/colorbg/rojo&naranja.xml</include>
+<include name="Animation Green 2 Blue" displayName="${red}">./art/sistemas/storyboards/colorbg/verde2azul.xml</include>
+<include name="Animation Fuchsia 2 Yellow" displayName="${red}">./art/sistemas/storyboards/colorbg/fuchia2amarillo.xml</include>
 </subset>
 
 <!--systemInfoEx-->
