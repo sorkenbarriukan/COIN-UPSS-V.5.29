@@ -8304,6 +8304,9 @@
 <size>0.6040 0.688</size>
 <path>./art/fondos/fondo video pantalla curva.png</path>
 <zIndex>55</zIndex>
+<storyboard repeat="0">
+<animation property="color" from="EF05FA" to="FAEC05" begin="100" duration="4300" autoreverse="true" mode="EaseOut"/>
+</storyboard>
 </image>
 
 <image name="consola" extra="true">
