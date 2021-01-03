@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<view name="basic, detailed, grid">
+
+<image name="md_marquee">
+<visible>true</visible>
+</image>	
+
+<image name="neon" extra="true">
+<visible>true</visible>
+<zIndex>68</zIndex>
+</image>
+
+</view>
+</theme>
+
+

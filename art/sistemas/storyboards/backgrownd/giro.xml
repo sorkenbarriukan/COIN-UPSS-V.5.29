@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <theme>
 <formatVersion>7</formatVersion>
-<view name="system, basic, detailed, grid">
+<view name="system, basic, detailed, grid, carousel, gamecarousel">
 <image name="background3" extra="true">
  <storyboard repeat="0">
-<animation property="rotation" from="0" to="180" begin="4000" duration="3500" mode="easeOut" autoreverse="true"/>
+<animation property="rotation" from="0" to="180" begin="4000" duration="3000" mode="easeOut" autoreverse="true"/>
 </storyboard>
 </image>
 </view>

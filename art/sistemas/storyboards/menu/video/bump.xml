@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <theme>
 <formatVersion>7</formatVersion>
-<view name="basic, detailed, grid">
+<view name="basic, detailed, grid, carousel, gamecarousel">
 <video name="md_video">
 <storyboard>
           <animation property="opacity" from="0" to="1" begin="350" duration="1000" mode="linear"/>

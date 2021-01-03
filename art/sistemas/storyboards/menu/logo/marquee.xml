@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <theme>
 <formatVersion>7</formatVersion>
-<view name="basic, detailed, grid">
+<view name="basic, detailed, grid, Carousel, gamecarousel">
 
 <image name="logo">
 <visible>true</visible>
@@ -10,7 +10,7 @@
 <zIndex>69</zIndex>
 </image>
 
-<image name="neon" extra="true">
+<image name="neonlight" extra="true">
 <zIndex>68</zIndex>
 </image>
 
