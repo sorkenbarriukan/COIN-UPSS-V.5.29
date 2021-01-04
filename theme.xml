@@ -8948,7 +8948,7 @@
 <path>./art/sistemas/pointerl/${system.theme}.png</path>
 <zIndex>60</zIndex>
 <storyboard repeat="forever">
-<animation property="x" from="0.04" to="0.07" duration="60" autoreverse="true" begin="4000" repeat="3"/>
+<animation property="x" from="0.06" to="0.07" duration="60" autoreverse="true" begin="4000" repeat="3"/>
 </storyboard>
 <zIndex>90</zIndex>
 </image>
