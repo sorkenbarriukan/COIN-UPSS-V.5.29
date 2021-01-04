@@ -52,6 +52,7 @@
 <include name="Another">./art/systemview/pantalla ovalda.xml</include>
 <include name="Mini">./art/systemview/mini.xml</include>
 <include name="PandoraBox">./art/systemview/pandora.xml</include>
+<include name="PandoraBox 2">./art/systemview/pandora2.xml</include>
 
 <include name="(1)-Horizontal full video marquee">./art/systemview/horizontal full video random.xml</include>
 <include name="(3)-Horizontal Wallpaper System">./art/systemview/Horizontal Wallpaper System.xml</include>
