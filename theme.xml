@@ -8941,9 +8941,9 @@
 
 <image name="pointer" extra="true">
 <tile>false</tile>
-<pos>0.06 0.556</pos>
+<pos>0.05 0.556</pos>
 <origin>0.5 0.5</origin>
-<size>0.070 0.155</size>
+<size>0.050 0.135</size>
 <path>./art/sistemas/pointerl/default.png</path>
 <path>./art/sistemas/pointerl/${system.theme}.png</path>
 <zIndex>60</zIndex>
@@ -9181,9 +9181,9 @@
 
 <image name="pointer" extra="true">
 <tile>false</tile>
-<pos>0.06 0.556</pos>
+<pos>0.05 0.556</pos>
 <origin>0.5 0.5</origin>
-<size>0.070 0.155</size>
+<size>0.050 0.135</size>
 <path>./art/sistemas/pointerl/default.png</path>
 <path>./art/sistemas/pointerl/${system.theme}.png</path>
 <zIndex>60</zIndex>
