@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<theme>
-<formatVersion>7</formatVersion>
-<view name="system, basic, detailed, grid, carousell">
-<image name="background3" extra="true">
-<color>5076F9</color>
-</image>
-</view>
-</theme>
