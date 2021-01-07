@@ -9737,18 +9737,46 @@
 <zIndex>48</zIndex>
 </video>
 
+<image name="logo2" extra="true">
+<path>./art/sistemas/ticket/${system.theme}.png</path>
+<color>ffffff</color>
+<pos>0.292 0.920</pos>
+<size>0.105 0.062</size>
+<origin>0.5 0.5</origin>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0</reflexion>
+<zIndex>91</zIndex>
+</image>
+
+<image name="logo3" extra="true">
+<path>./art/sistemas/ticket/${system.theme}.png</path>
+<color>ffffff</color>
+<pos>0.292 0.920</pos>
+<size>0.105 0.062</size>
+<origin>0.5 0.5</origin>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>90</zIndex>
+<storyboard repeat="0">
+<animation property="opacity" from="0" duration="80" begin="1800" autoreverse="true" repeat="3"/>
+</storyboard>
+</image>
+
 <text name="md_description">
-<color>000000</color>
+<color>ffffff</color>
+<glowColor>000000</glowColor>
+<glowSize>2</glowSize>
 <forceUppercase>0</forceUppercase>
 <fontPath>./art/fuentes/Cabin-Regular.ttf</fontPath>
 <fontSize>0.015</fontSize>
-<size>0.427 0.28</size>
+<size>0.447 0.29</size>
 <pos>0.05 0.140</pos>
 <zIndex>90</zIndex>
-<storyboard repeat="forever">
-<animation property="color" from="FAE805" to="FA3505" begin="100" duration="4300" autoreverse="true" mode="EaseOut"/>
-<animation property="scale" from="0.9" to="1.1" begin="500" duration="6200" mode="easeInOut" autoreverse="true" repeat="forever"/>      
- </storyboard>
+<storyboard>     
+<animation property="y" from="0" to="0.09" begin="0" duration="1950" mode="easeOut" repeat="1"/>
+</storyboard>
 <zIndex>38</zIndex>
 </text>
 
