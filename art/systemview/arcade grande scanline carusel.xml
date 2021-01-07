@@ -153,6 +153,13 @@
 <reflexion>0</reflexion>
 <zIndex>50</zIndex>
 </text>
+       
+<text name="sys_info" extra="true">
+<visible>false</visible>
+</text>
+<text name="sys_description" extra="true">
+<visible>false</visible>
+</text>
     
 <text name="logoText">
 <fontPath>./art/fuentes/Bebas Neue.ttf</fontPath>

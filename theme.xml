@@ -54,7 +54,7 @@
 <include name="Mini">./art/systemview/mini.xml</include>
 <include name="PandoraBox">./art/systemview/pandora.xml</include>
 <include name="PandoraBox 2">./art/systemview/pandora2.xml</include>
-<include name="Calssic">./art/systemview/classic.xml</include>
+<include name="Classic">./art/systemview/classic.xml</include>
 
 <include name="(1)-Horizontal full video marquee">./art/systemview/horizontal full video random.xml</include>
 <include name="(3)-Horizontal Wallpaper System">./art/systemview/Horizontal Wallpaper System.xml</include>
@@ -923,6 +923,9 @@
 <pos>0.0190 0.950</pos>
 <maxSize>0.025 0.018</maxSize>
 <zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
 </image>
 
 <rating name="md_rating">
@@ -1049,6 +1052,17 @@
 <pos>0.500 0.136</pos>
 <size>0.150 0.099</size>
 <origin>0.5 0.5</origin>
+</image>
+
+<image name="md_flag"> 
+<visible>true</visible>
+<origin>0.5 0.5</origin>
+<pos>0.0190 0.950</pos>
+<maxSize>0.025 0.018</maxSize>
+<zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
 </image>
 
 <rating name="md_rating">
@@ -1363,6 +1377,17 @@
 <pos>0.900 0.780</pos>
 <size>0.150 0.115</size>
 <origin>0.5 0.5</origin>
+</image>
+
+<image name="md_flag"> 
+<visible>true</visible>
+<origin>0.5 0.5</origin>
+<pos>0.0190 0.950</pos>
+<maxSize>0.025 0.018</maxSize>
+<zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
 </image>
 
 <rating name="md_rating">
@@ -1749,6 +1774,9 @@
 <pos>0.0190 0.950</pos>
 <maxSize>0.025 0.018</maxSize>
 <zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
 </image>
 </customView>
 
@@ -1977,6 +2005,9 @@
 <pos>0.0190 0.950</pos>
 <maxSize>0.025 0.018</maxSize>
 <zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
 </image>
 </customView>
 
@@ -2177,6 +2208,17 @@
 <size>0.300 0.126</size>
 <origin>0.5 0.5</origin>
 <zIndex>10</zIndex>
+</image>
+
+<image name="md_flag"> 
+<visible>true</visible>
+<origin>0.5 0.5</origin>
+<pos>0.0190 0.950</pos>
+<maxSize>0.025 0.018</maxSize>
+<zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
 </image>
 
 <rating name="md_rating">
@@ -2382,6 +2424,17 @@
 <size>0.300 0.126</size>
 <origin>0.5 0.5</origin>
 <zIndex>10</zIndex>
+</image>
+
+<image name="md_flag"> 
+<visible>true</visible>
+<origin>0.5 0.5</origin>
+<pos>0.0190 0.950</pos>
+<maxSize>0.025 0.018</maxSize>
+<zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
 </image>
 
 <rating name="md_rating">
@@ -2599,6 +2652,17 @@
         <animation property="-y" from="1.0" begin="0" duration="1250" mode="easeOut"/>  
 </storyboard>
 <zIndex>15</zIndex>
+</image>
+
+<image name="md_flag"> 
+<visible>true</visible>
+<origin>0.5 0.5</origin>
+<pos>0.0190 0.950</pos>
+<maxSize>0.025 0.018</maxSize>
+<zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
 </image>
 
  <rating name="md_rating">
@@ -2819,6 +2883,17 @@
 <zIndex>15</zIndex>
 </image>
 
+<image name="md_flag"> 
+<visible>true</visible>
+<origin>0.5 0.5</origin>
+<pos>0.0190 0.950</pos>
+<maxSize>0.025 0.018</maxSize>
+<zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
+</image>
+
  <rating name="md_rating">
  <visible>false</visible>
 <pos>0.06 0.800</pos>
@@ -3028,6 +3103,17 @@
 <storyboard>  
         <animation property="y" from="-0" begin="0" duration="1250" mode="easeOut"/>  
 </storyboard>
+</image>
+
+<image name="md_flag"> 
+<visible>true</visible>
+<origin>0.5 0.5</origin>
+<pos>0.0190 0.950</pos>
+<maxSize>0.025 0.018</maxSize>
+<zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
 </image>
 
  <rating name="md_rating">
@@ -3247,6 +3333,17 @@
 </storyboard>
 </image>
 
+<image name="md_flag"> 
+<visible>true</visible>
+<origin>0.5 0.5</origin>
+<pos>0.0190 0.950</pos>
+<maxSize>0.025 0.018</maxSize>
+<zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
+</image>
+
  <rating name="md_rating">
  <visible>false</visible>
 <pos>0.06 0.800</pos>
@@ -3464,6 +3561,17 @@
 </storyboard>
 </image>
 
+<image name="md_flag"> 
+<visible>true</visible>
+<origin>0.5 0.5</origin>
+<pos>0.0190 0.950</pos>
+<maxSize>0.025 0.018</maxSize>
+<zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
+</image>
+
  <rating name="md_rating">
  <visible>false</visible>
 <pos>0.06 0.800</pos>
@@ -3672,6 +3780,17 @@
 <storyboard>  
         <animation property="x" from="-0" begin="0" duration="1250" mode="easeOut"/>  
 </storyboard>
+</image>
+
+<image name="md_flag"> 
+<visible>true</visible>
+<origin>0.5 0.5</origin>
+<pos>0.0190 0.950</pos>
+<maxSize>0.025 0.018</maxSize>
+<zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
 </image>
 
  <rating name="md_rating">
@@ -3884,6 +4003,17 @@
 </storyboard>
 </image>
 
+<image name="md_flag"> 
+<visible>true</visible>
+<origin>0.5 0.5</origin>
+<pos>0.0190 0.950</pos>
+<maxSize>0.025 0.018</maxSize>
+<zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
+</image>
+
 <rating name="md_rating">
  <visible>false</visible>
 <pos>0.06 0.800</pos>
@@ -4085,6 +4215,17 @@
 </storyboard>
 </image>
 
+<image name="md_flag"> 
+<visible>true</visible>
+<origin>0.5 0.5</origin>
+<pos>0.0190 0.950</pos>
+<maxSize>0.025 0.018</maxSize>
+<zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
+</image>
+
  <rating name="md_rating">
  <visible>false</visible>
 <pos>0.06 0.800</pos>
@@ -4284,6 +4425,17 @@
 <storyboard>  
         <animation property="x" from="-0" begin="0" duration="1250" mode="easeOut"/>  
 </storyboard>
+</image>
+
+<image name="md_flag"> 
+<visible>true</visible>
+<origin>0.5 0.5</origin>
+<pos>0.0190 0.950</pos>
+<maxSize>0.025 0.018</maxSize>
+<zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
 </image>
 
  <rating name="md_rating">
@@ -4495,6 +4647,17 @@
 <size>0.470 0.214</size>
 <origin>0.5 1</origin>
 <zIndex>15</zIndex>
+</image>
+
+<image name="md_flag"> 
+<visible>true</visible>
+<origin>0.5 0.5</origin>
+<pos>0.0190 0.950</pos>
+<maxSize>0.025 0.018</maxSize>
+<zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
 </image>
 
  <rating name="md_rating">
@@ -4713,6 +4876,17 @@
 <size>0.470 0.214</size>
 <origin>0.5 1</origin>
 <zIndex>15</zIndex>
+</image>
+
+<image name="md_flag"> 
+<visible>true</visible>
+<origin>0.5 0.5</origin>
+<pos>0.0190 0.950</pos>
+<maxSize>0.025 0.018</maxSize>
+<zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
 </image>
 
  <rating name="md_rating">
@@ -4935,6 +5109,17 @@
 <storyboard>  
         <animation property="y" from="-0" begin="0" duration="1250" mode="easeOut"/>  
 </storyboard>
+</image>
+
+<image name="md_flag"> 
+<visible>true</visible>
+<origin>0.5 0.5</origin>
+<pos>0.0190 0.950</pos>
+<maxSize>0.025 0.018</maxSize>
+<zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
 </image>
 
  <rating name="md_rating">
@@ -5165,6 +5350,17 @@
 </storyboard>
 </image>
 
+<image name="md_flag"> 
+<visible>true</visible>
+<origin>0.5 0.5</origin>
+<pos>0.0190 0.950</pos>
+<maxSize>0.025 0.018</maxSize>
+<zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
+</image>
+
  <rating name="md_rating">
  <visible>false</visible>
 <pos>0.06 0.800</pos>
@@ -5386,6 +5582,17 @@
 </storyboard>
 </image>
 
+<image name="md_flag"> 
+<visible>true</visible>
+<origin>0.5 0.5</origin>
+<pos>0.0190 0.950</pos>
+<maxSize>0.025 0.018</maxSize>
+<zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
+</image>
+
 <rating name="md_rating">
 <visible>false</visible>
 <pos>0.06 0.800</pos>
@@ -5605,6 +5812,17 @@
 <storyboard>  
         <animation property="y" from="-0" begin="0" duration="1250" mode="easeOut"/>  
 </storyboard>
+</image>
+
+<image name="md_flag"> 
+<visible>true</visible>
+<origin>0.5 0.5</origin>
+<pos>0.0190 0.950</pos>
+<maxSize>0.025 0.018</maxSize>
+<zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
 </image>
 
  <rating name="md_rating">
@@ -5963,6 +6181,17 @@
 </storyboard>
 </image>
 
+<image name="md_flag"> 
+<visible>true</visible>
+<origin>0.5 0.5</origin>
+<pos>0.0190 0.950</pos>
+<maxSize>0.025 0.018</maxSize>
+<zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
+</image>
+
  <rating name="md_rating">
  <visible>false</visible>
 <pos>0.06 0.800</pos>
@@ -6170,6 +6399,17 @@
 <zIndex>15</zIndex>
 </image>
 
+<image name="md_flag"> 
+<visible>true</visible>
+<origin>0.5 0.5</origin>
+<pos>0.0190 0.950</pos>
+<maxSize>0.025 0.018</maxSize>
+<zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
+</image>
+
  <rating name="md_rating">
  <visible>false</visible>
 <pos>0.06 0.800</pos>
@@ -6375,6 +6615,17 @@
 <size>0.440 0.214</size>
 <origin>0.5 1</origin>
 <zIndex>15</zIndex>
+</image>
+
+<image name="md_flag"> 
+<visible>true</visible>
+<origin>0.5 0.5</origin>
+<pos>0.0190 0.950</pos>
+<maxSize>0.025 0.018</maxSize>
+<zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
 </image>
 
  <rating name="md_rating">
@@ -6587,6 +6838,17 @@
 <origin>0.5 0.5</origin>
 </image>
 
+<image name="md_flag"> 
+<visible>true</visible>
+<origin>0.5 0.5</origin>
+<pos>0.0190 0.950</pos>
+<maxSize>0.025 0.018</maxSize>
+<zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
+</image>
+
  <rating name="md_rating">
  <visible>false</visible>
 <pos>0.06 0.800</pos>
@@ -6795,6 +7057,17 @@
 <pos>0.345 0.910</pos>
 <size>0.150 0.120</size>
 <origin>0.5 0.5</origin>
+</image>
+
+<image name="md_flag"> 
+<visible>true</visible>
+<origin>0.5 0.5</origin>
+<pos>0.0190 0.950</pos>
+<maxSize>0.025 0.018</maxSize>
+<zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
 </image>
 
  <rating name="md_rating">
@@ -7022,6 +7295,17 @@
 <pos>0.645 0.910</pos>
 <size>0.150 0.120</size>
 <origin>0.5 0.5</origin>
+</image>
+
+<image name="md_flag"> 
+<visible>true</visible>
+<origin>0.5 0.5</origin>
+<pos>0.0190 0.950</pos>
+<maxSize>0.025 0.018</maxSize>
+<zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
 </image>
 
  <rating name="md_rating">
@@ -7374,6 +7658,17 @@
 <zIndex>90</zIndex>
 </image>	
 
+<image name="md_flag"> 
+<visible>true</visible>
+<origin>0.5 0.5</origin>
+<pos>0.0190 0.950</pos>
+<maxSize>0.025 0.018</maxSize>
+<zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
+</image>
+
 <image name="logo">
 <pos>0.09 0.07</pos>
 <size>0.150 0.120</size>
@@ -7713,6 +8008,17 @@
 <zIndex>90</zIndex>
 </image>	
 
+<image name="md_flag"> 
+<visible>true</visible>
+<origin>0.5 0.5</origin>
+<pos>0.0190 0.950</pos>
+<maxSize>0.025 0.018</maxSize>
+<zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
+</image>
+
 <image name="logo">
 <pos>0.46 0.840</pos>
 <size>0.110 0.090</size>
@@ -7969,6 +8275,9 @@
 <pos>0.0190 0.950</pos>
 <maxSize>0.025 0.018</maxSize>
 <zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
 </image>
 
  <rating name="md_rating">
@@ -8213,6 +8522,9 @@
 <pos>0.0190 0.950</pos>
 <maxSize>0.025 0.018</maxSize>
 <zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
 </image>
 
  <rating name="md_rating">
@@ -8449,6 +8761,9 @@
 <pos>0.0190 0.950</pos>
 <maxSize>0.025 0.018</maxSize>
 <zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
 </image>
 
  <rating name="md_rating">
@@ -8672,6 +8987,17 @@
 <storyboard>       
        <animation property="w" from="-0" begin="0" duration="2250" mode="easeOut"/>    
 </storyboard>
+</image>
+
+<image name="md_flag"> 
+<visible>true</visible>
+<origin>0.5 0.5</origin>
+<pos>0.0190 0.950</pos>
+<maxSize>0.025 0.018</maxSize>
+<zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
 </image>
 
  <rating name="md_rating">
@@ -8919,6 +9245,9 @@
 <pos>0.0190 0.950</pos>
 <maxSize>0.025 0.018</maxSize>
 <zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
 </image>
 
  <rating name="md_rating">
@@ -9159,6 +9488,9 @@
 <pos>0.0190 0.950</pos>
 <maxSize>0.025 0.018</maxSize>
 <zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
 </image>
 
  <rating name="md_rating">
@@ -9483,6 +9815,9 @@
 <pos>0.0190 0.950</pos>
 <maxSize>0.025 0.018</maxSize>
 <zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
 </image>
 
  <rating name="md_rating">
@@ -9786,6 +10121,9 @@
 <pos>0.0190 0.950</pos>
 <maxSize>0.025 0.018</maxSize>
 <zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
 </image>
 
  <rating name="md_rating">
@@ -10006,6 +10344,17 @@
 </storyboard>
 </image>
 
+<image name="md_flag"> 
+<visible>true</visible>
+<origin>0.5 0.5</origin>
+<pos>0.0190 0.950</pos>
+<maxSize>0.025 0.018</maxSize>
+<zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
+</image>
+
  <rating name="md_rating">
  <visible>false</visible>
 <pos>0.06 0.800</pos>
@@ -10220,6 +10569,17 @@
 </storyboard>
 </image>
 
+<image name="md_flag"> 
+<visible>true</visible>
+<origin>0.5 0.5</origin>
+<pos>0.0190 0.950</pos>
+<maxSize>0.025 0.018</maxSize>
+<zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
+</image>
+
  <rating name="md_rating">
  <visible>false</visible>
 <pos>0.06 0.800</pos>
@@ -10228,6 +10588,7 @@
 <unfilledColor>808080</unfilledColor>
 </rating>
 </customView>
+
 
  <customView name="Tiles ScanLine & Glitch" inherits="grid" displayName="${Tiles ScanLine & GlitchViewName}">
 <image name="background">
@@ -10439,6 +10800,17 @@
 <storyboard>  
         <animation property="y" from="-0" begin="0" duration="1250" mode="easeOut"/>  
 </storyboard>
+</image>
+
+<image name="md_flag"> 
+<visible>true</visible>
+<origin>0.5 0.5</origin>
+<pos>0.0190 0.950</pos>
+<maxSize>0.025 0.018</maxSize>
+<zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
 </image>
 
  <rating name="md_rating">

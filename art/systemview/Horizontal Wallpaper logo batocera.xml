@@ -64,6 +64,13 @@
 <fontSize>0.020</fontSize>
 <pos>0.50 0.03</pos>
 </helpsystem>
+       
+<text name="sys_info" extra="true">
+<visible>false</visible>
+</text>
+<text name="sys_description" extra="true">
+<visible>false</visible>
+</text>
     
 <text name="logoText">
 <fontPath>./art/fuentes/Bebas Neue.ttf</fontPath>
