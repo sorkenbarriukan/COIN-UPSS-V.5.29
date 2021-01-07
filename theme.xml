@@ -5,6 +5,7 @@
 
 <variables>
 <systemViewName>System view</systemViewName>
+<infoName>Change Lenguage Info Only For Classic View</infoName>
 <ShowCharactersName>Show Characters</ShowCharactersName>
 <MarqueeStyleName>Marquee Style</MarqueeStyleName>
 <systemViewExInfos>Show system InfoEx</systemViewExInfos> 
@@ -75,6 +76,16 @@
 <include name="(3)-Wall,video random retro console cemfundog view 3">./art/systemview/retroconsol 3.xml</include>
 <include name="(1)-Video random retro console cemfundog view 2">./art/systemview/retroconsol video 2.xml</include>
 <include name="(2)-Video random retro console cemfundog view 1">./art/systemview/retroconsol video 1.xml</include>
+</subset>
+
+<!--Show  Info-->
+ <subset name="info" displayName="${infoName}">
+<include name="English Default" displayName="${yes}">./art/sistemas/infosys/en/${system.theme}.xml</include>
+<include name="Espanol" displayName="${yes}">./art/sistemas/infosys/es/${system.theme}.xml</include>
+<include name="Arabe" displayName="${yes}">./art/sistemas/infosys/ar/${system.theme}.xml</include>
+<include name="Français" displayName="${yes}">./art/sistemas/infosys/fr/${system.theme}.xml</include>
+<include name="Italien" displayName="${yes}">./art/sistemas/infosys/it/${system.theme}.xml</include>
+<include name="portuguese" displayName="${yes}">./art/sistemas/infosys/pt/${system.theme}.xml</include>
 </subset>
 
 <!--Show  Personajes-->
