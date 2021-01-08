@@ -9498,7 +9498,7 @@ Batocera: nadenislamarre
 
 <image name="background3" extra="true">
 <tile>false</tile>
-<size>0.550 0.710</size>
+<size>0.580 0.710</size>
 <pos>0.020 0.170</pos>
 <origin>0 0</origin>
 <path>./art/sistemas/wall/default.png</path>
@@ -9825,7 +9825,7 @@ Batocera: nadenislamarre
 
 <image name="background3" extra="true">
 <tile>false</tile>
-<size>0.550 0.710</size>
+<size>0.580 0.710</size>
 <pos>0.020 0.170</pos>
 <origin>0 0</origin>
 <path>./art/sistemas/wall/default.png</path>
