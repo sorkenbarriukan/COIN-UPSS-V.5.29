@@ -3,6 +3,7 @@
 <formatVersion>7</formatVersion>
 <view name="system">
 <image name="personaje" extra="true">
+<visible>true</visible>
 <storyboard repeat="0">
 <animation property="opacity" from="0" to="20" duration="2950" mode="easeIn"/> 
 <animation property="color" from="FFFFFF" to="00000000" begin="100" duration="1300" autoreverse="true" mode="EaseOut"/>
