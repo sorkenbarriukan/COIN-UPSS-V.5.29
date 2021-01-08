@@ -1,7 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-
-<theme defaultView="Arcade grande carusel No Scanline wheel">
+ <!--
+Theme: COIN-UPSS-Lite
+ES: Fabrice CARUSO
+Batocera: nadenislamarre
+-->
+<theme defaultView="Carusel arcade grande">
 <formatVersion>7</formatVersion>
+
 
 <variables>
 <systemViewName>System view</systemViewName>
@@ -87,6 +92,7 @@
 <include name="Italien" displayName="${yes}">./art/sistemas/infosys/it/${system.theme}.xml</include>
 <include name="portuguese" displayName="${yes}">./art/sistemas/infosys/pt/${system.theme}.xml</include>
 </subset>
+
 
 <!--Show  Personajes-->
  <subset name="ShowCharacters" displayName="${ShowCharactersName}">
@@ -300,6 +306,7 @@
 <include name="Stretch left&Up">./art/sistemas/storyboards/system/character/Stretch left&Up.xml</include>
 <include name="Estirar">./art/sistemas/storyboards/system/character/vueltas.xml</include>
 <include name="Parpadeo 2">./art/sistemas/storyboards/system/character/parpadeo2.xml</include>
+<include name="Glitch">./art/sistemas/storyboards/system/character/glitch.xml</include>
 </subset>
 
 <!--storyboards  Menu Video-->
@@ -360,8 +367,7 @@
 </image>
 </view>
   
- 
- <!---------------------------Pantalla por encima de todo------------------------------------- -->
+<!---------------------------Pantalla por encima de todo------------------------------------- -->
 <view name="screen">
 <text name="clock">
 <textColor>777777FF</textColor>
@@ -769,6 +775,7 @@
 </image>
 </view>
 
+     
 <!---------------------------grid--------------------------------------->
 <view name="grid">
 <text name="logoText">
@@ -1397,9 +1404,173 @@
 <unfilledColor>808080</unfilledColor>
 </rating>
 </customView>
+
+
+
+ <!---------------------------Carousel--------------------------------------->
+ <customView name="Carousel" inherits="grid" tinyScreen="false" displayName="${carouselViewName}">
+<image name="background">
+<tile>false</tile>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<size>1 1</size>
+<path>./art/fondos/filter.png</path>
+<color>00000096</color>
+<zIndex>20</zIndex>
+</image>
+
+<image name="md_flag"> 
+<visible>true</visible>
+<origin>0.5 0.5</origin>
+<pos>0.0190 0.950</pos>
+<maxSize>0.025 0.018</maxSize>
+<zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
+</image>
+
+<image name="background3" extra="true">
+<visible>true</visible>
+<tile>false</tile>
+<color>FFFFFF80</color>
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./art/sistemas/wall/default.png</path>
+<path>./art/sistemas/wall/${system.theme}.png</path>
+<zIndex>10</zIndex>
+</image>
+
+ <text name="md_name">
+      <color>ffffffff</color>
+      <pos>0.04 0.76</pos>
+      <size>0.92 0.10</size>
+      <alignment>center</alignment>
+      <glowColor>00000016</glowColor>
+      <glowSize>4</glowSize>
+    </text>
+    
+    <text name="md_developer">
+      <color>808080ff</color>
+      <pos>0.04 0.80</pos>
+      <size>0.92 0.10</size>
+      <alignment>center</alignment>
+      <fontSize>0.020</fontSize>
+      <glowColor>00000016</glowColor>
+      <glowSize>3</glowSize>
+    </text>
+    
+<rating name="md_rating">
+<pos>0.15 0.500</pos>
+<size>0.05 0.03</size>
+<color>FFFFFF</color>
+<unfilledColor>808080</unfilledColor>
+</rating>
+
+    <imagegrid name="gamegrid">
+      <pos>0 0.16</pos>
+      <size>1 0.774</size>
+      <padding>0.05 0.14 0.05 0.30</padding>
+      <scrollDirection>horizontal</scrollDirection>
+      <autoLayout>5 1</autoLayout>
+      <autoLayoutSelectedZoom>1.50</autoLayoutSelectedZoom>
+      <margin>0.005 0.010</margin>
+      <centerSelection>true</centerSelection>
+      <scrollLoop>true</scrollLoop>
+      <folderImage>./art/fondos/deffolder.png</folderImage>
+    <gameImage>./art/fondos/defgamegrid.png</gameImage>
+    <logoBackgroundImage>/art/fondos/deflogobk.png</logoBackgroundImage>
+      <zIndex>90</zIndex>
+    </imagegrid>
+    
+    <gridtile name="default">
+      <padding>64 16</padding>
+      <backgroundCenterColor>FFFFFF00</backgroundCenterColor>
+      <backgroundEdgeColor>FFFFFF00</backgroundEdgeColor>
+      <imageSizeMode>maxSize</imageSizeMode>
+      <imageColor>FFFFFF</imageColor>
+      <reflexion>0.24 0.0</reflexion>
+    </gridtile>
+    
+    <gridtile name="selected">
+      <backgroundCenterColor>FFFFFF00</backgroundCenterColor>
+      <backgroundEdgeColor>FFFFFF00</backgroundEdgeColor>
+      <padding>64 16</padding>
+    </gridtile>
+    
+    <text name="gridtile">
+      <visible>false</visible>
+      <color>80808080</color>
+      <fontSize>0.016</fontSize>
+      <size>1 0</size>
+    </text>
+    
+    <text name="gridtile:selected">
+      <color>FFFFFF00</color>
+      <fontSize>0.035</fontSize>
+      <size>1 0</size>
+    </text>
+    <ninepatch name="gridtile.background:selected">
+      <animateColorTime>0</animateColorTime>
+    </ninepatch>
+
+<image name="logo">
+<pos>0.500 0.136</pos>
+<size>0.200 0.130</size>
+<origin>0.5 0.5</origin>
+</image>
+
+<image name="md_marquee">
+<pos>0.500 0.136</pos>
+<size>0.200 0.130</size>
+<origin>0.5 0.5</origin>
+<zIndex>90</zIndex>
+</image>	
+
+<video name="md_video">
+<visible>true</visible>
+<pos>0.9999 0.9999</pos>
+<origin>0.5 0.5</origin>
+<size>0.01 0.01</size>
+<delay>0</delay>
+<roundCorners>0.04.7</roundCorners> 
+<showSnapshotNoVideo>false</showSnapshotNoVideo>
+<showSnapshotDelay>false</showSnapshotDelay>
+<loops>0</loops>
+<zIndex>1</zIndex>
+</video>
+    
+<image name="personaje" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>FFFFFFFF</color>
+<origin>0 0</origin>
+<pos>0.700 0.3560</pos>
+<size>0.1695 0.6055</size>
+<glowColor>000000</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>92</zIndex>
+</image>
+
+<image name="personaje2" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>FFFFFFFF</color>
+<origin>0 0</origin>
+<pos>0.700 0.3560</pos>
+<size>0.1695 0.6055</size>
+<glowColor>000000</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>92</zIndex>
+</image>
+</customView>
+  
+ 
    
 <!---------------------------Logos------------------------------------- -->
-
 <view name="gamecarousel">
 <gamecarousel name="gamecarousel">
 <zIndex>43</zIndex>	      
@@ -1505,6 +1676,7 @@
 <zIndex>90</zIndex>
 </image>
 
+
 <image name="personaje" extra="true">
 <path>./art/sistemas/character/default.png</path>
 <path>./art/sistemas/character/${system.theme}.png</path>
@@ -1512,10 +1684,38 @@
 <origin>0 0</origin>
 <pos>0.4850 0.2567</pos>
 <size>0.2295 0.7155</size>
-<storyboard>       
-       <animation property="x" from="1.01" begin="0" duration="2250" mode="easeOut"/>    
-</storyboard>
-<zIndex>60</zIndex>
+<glowColor>000000</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>82</zIndex>
+</image>
+
+<image name="personaje2" extra="true">
+<visible>false</visible>
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>2EFE2E</color>
+<origin>0 0</origin>
+<pos>0.4850 0.2567</pos>
+<size>0.2295 0.7155</size>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>80</zIndex>
+</image>
+
+<image name="personaje3" extra="true">
+<visible>false</visible>
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>FE2EF7</color>
+<origin>0 0</origin>
+<pos>0.4850 0.2567</pos>
+<size>0.2295 0.7155</size>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>81</zIndex>
 </image>
 
 <helpsystem name="help">
@@ -3580,7 +3780,8 @@
 <unfilledColor>808080</unfilledColor>
 </rating>
 </customView>
-
+ 
+ 
 <customView name="(1)-Logos Coin UPSS Wallpaper Scanline No Glass" inherits="grid" displayName="${gridDetailsViewName}">
 <image name="background">
 <tile>false</tile>
@@ -4668,7 +4869,8 @@
 <unfilledColor>808080</unfilledColor>
 </rating>
 </customView> 
- 
+
+
 <customView name="(2)-Logos Arcade grande carusel no Scanline" inherits="grid" displayName="${gridDetailsViewName}">
 <image name="background">
 <tile>false</tile>
@@ -5833,6 +6035,7 @@
 <unfilledColor>808080</unfilledColor>
 </rating>
 </customView>
+
 
 <customView name="Logos  flat" inherits="grid" displayName="${gridDetailsViewName}">
 <image name="background">
@@ -7676,6 +7879,7 @@
 </image>
 </customView>
 
+
 <customView name="Logos multicolored Ruleta Right" inherits="grid" displayName="${gridDetailsViewName}">
 <image name="background" extra="true">
 <tile>false</tile>
@@ -8157,7 +8361,6 @@
 <storyboard repeat="forever">
 <animation property="y" from="0.76" begin="0" duration="4450" autoreverse="true" mode="easeOut" begin="4000" repeat="0"/>
 <animation property="w" from="0.11" begin="2450" duration="4450" autoreverse="true" mode="easeOut" begin="4000" repeat="0"/>
-<animation property="h" from="0.0.315" begin="2450" duration="4450" autoreverse="true" mode="easeOut" begin="4000" repeat="3"/>
 </storyboard> 
 </image>
 
@@ -8535,7 +8738,6 @@
 <unfilledColor>808080</unfilledColor>
 </rating>
 </customView>
-
 
 <customView name="Hard Mix" inherits="grid" displayName="${gridDetailsViewName}">
 <image name="background" extra="true">
@@ -9830,6 +10032,7 @@
 </customView>
 
 
+
 <customView name="Classic" inherits="gamecarousel" displayName="${gridDetailsViewName}">    
 <image name="background1" extra="true">
 <visible>true</visible>
@@ -9940,8 +10143,8 @@
 <path>./art/sistemas/character/${system.theme}.png</path>
 <color>2EFE2E</color>
 <origin>0 0</origin>
-<pos>0.340 0.5460</pos>
-<size>0.080 0.255</size>
+<pos>0.380 0.3060</pos>
+<size>0.200 0.665</size>
 <glowColor>ffffff60</glowColor>
 <glowSize>2</glowSize>
 <reflexion>0.50 0.0</reflexion>
@@ -9953,8 +10156,8 @@
 <path>./art/sistemas/character/${system.theme}.png</path>
 <color>FE2EF7</color>
 <origin>0 0</origin>
-<pos>0.340 0.5460</pos>
-<size>0.080 0.255</size>
+<pos>0.380 0.3060</pos>
+<size>0.200 0.665</size>
 <glowColor>ffffff60</glowColor>
 <glowSize>2</glowSize>
 <reflexion>0.50 0.0</reflexion>
@@ -10019,7 +10222,7 @@
 <pos>0.292 0.497</pos>
 <size>0.105 0.062</size>
 <origin>0.5 0.5</origin>
-<zIndex>49</zIndex>
+<zIndex>99</zIndex>
 <storyboard repeat="forever">
 <animation property="opacity" from="0" to="1" begin="350" duration="1000" mode="linear"/>
 <animation property="scale" from="0" to="1" begin="350" duration="1000" mode="bump"/>

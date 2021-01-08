@@ -150,6 +150,8 @@
 <fontSize>0.013</fontSize>
 <fontPath>./art/fuentes/Pixel LCD-7.ttf</fontPath>
 <color>ffffff</color>
+<glowColor>000000</glowColor>
+<glowSize>1</glowSize>
 <forceUppercase>true</forceUppercase>
 <zIndex>65</zIndex>
 <storyboard>       
