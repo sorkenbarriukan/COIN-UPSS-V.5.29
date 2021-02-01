@@ -88,6 +88,19 @@
 <zIndex>91</zIndex>
 </image>
 
+<image name="personaje4" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>ffffff</color>
+<origin>0 0</origin>
+<pos>0.660 0.3960</pos>
+<size>0.080 0.195</size>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>91</zIndex>
+</image>
+
 <video name="backgroundvideo" extra="true">
 <visible>true</visible>
 <path>{random}</path>
