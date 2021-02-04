@@ -1173,7 +1173,7 @@ Batocera Linux: nadenislamarre
 <visible>true</visible>
 <pos>0.1592 0.7690</pos>
 <origin>0.5 0.5</origin>
-<maxsize>0.2850 0.3610</maxsize>
+<size>0.2850 0.3610</size>
 <zIndex>89</zIndex>
 </image>
 
@@ -7976,7 +7976,7 @@ Batocera Linux: nadenislamarre
 <visible>true</visible>
 <pos>0.5200 0.420</pos>
 <origin>0.5 0.5</origin>
-<maxsize>0.2360 0.3460</maxsize>
+<size>0.2360 0.3460</size>
 <roundCorners>0.04.7</roundCorners>
 <zIndex>89</zIndex>
 </image>
@@ -8041,7 +8041,7 @@ Batocera Linux: nadenislamarre
 <delay>0</delay>
 <showSnapshotNoVideo>false</showSnapshotNoVideo>
 <showSnapshotDelay>false</showSnapshotDelay>
-<roundCorners>0.04.7</roundCorners>
+<roundCorners>0</roundCorners>
 <zIndex>90</zIndex>
 </video>
 
@@ -9426,7 +9426,7 @@ Batocera Linux: nadenislamarre
 <image name="md_image">
 <pos>0.1690 0.559</pos>
 <origin>0.5 0.5</origin>
-<maxsize>0.2700 0.256</maxsize>
+<size>0.2700 0.256</size>
 <zIndex>67</zIndex>
 <storyboard repeat="forever">
 <animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="4500" repeat="3"/>
@@ -10240,7 +10240,7 @@ Batocera Linux: nadenislamarre
 <image name="md_image">
 <pos>0.2870 0.7250</pos>
 <origin>0.5 0.5</origin>
-<maxsize>0.1970 0.266</maxsize>
+<size>0.1970 0.266</size>
 <zIndex>47</zIndex>
 </image>	
 
